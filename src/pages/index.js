@@ -46,10 +46,13 @@ const Home = (props) => {
                   src="/playground_assets/pastedimage-no9b-1500h.png"
                   className={styles['logo1']}
                 />
-                <div className={styles['links1']}>
-                  <span className={projectStyles['link']}>Solutions</span>
-                  <span className={projectStyles['link']}>How it works</span>
-                  <span className={projectStyles['link']}>Prices</span>
+                <div className={styles['container01']}>
+                  <div className={styles['links1']}>
+                    <span className={projectStyles['link']}>Solutions</span>
+                    <span className={projectStyles['link']}>How it works</span>
+                    <span className={projectStyles['link']}>Prices</span>
+                    <span className={projectStyles['link']}>Blog</span>
+                  </div>
                 </div>
               </div>
               <div className={styles['right']}>
@@ -59,7 +62,7 @@ const Home = (props) => {
                   Sign in
                 </span>
                 <div className={styles['get-started']}>
-                  <span className={styles['text006']}>Get started</span>
+                  <span className={styles['text007']}>Get started</span>
                 </div>
                 <div id="open-mobile-menu" className={styles['burger-menu']}>
                   <img
@@ -99,15 +102,15 @@ closeButton.addEventListener("click", function() {
           </div>
         </div>
         <header className={styles['header']}>
-          <h1 className={styles['text007']}>
+          <h1 className={styles['text008']}>
             Take Control of Your Social Media
           </h1>
-          <p className={styles['text008']}>
+          <p className={styles['text009']}>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt.
           </p>
           <div className={styles['get-started1']}>
-            <span className={styles['text009']}>Get started</span>
+            <span className={styles['text010']}>Get started</span>
           </div>
         </header>
         <div className={styles['dashboard-preview']}>
@@ -123,7 +126,7 @@ closeButton.addEventListener("click", function() {
       </section>
       <section className={styles['features']}>
         <div className={styles['title']}>
-          <span className={styles['text010']}>
+          <span className={styles['text011']}>
             <span>
               Let&apos;s grow your social media
               <span
@@ -135,7 +138,7 @@ closeButton.addEventListener("click", function() {
             <br></br>
             <span>presence</span>
           </span>
-          <span className={styles['text014']}>
+          <span className={styles['text015']}>
             <span>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               <span
@@ -148,15 +151,15 @@ closeButton.addEventListener("click", function() {
           </span>
         </div>
         <div className={styles['cards']}>
-          <div className={styles['container1']}>
+          <div className={styles['container02']}>
             <div className={projectStyles['card']}>
               <img
                 alt="pastedImage"
                 src="/playground_assets/pastedimage-fii6m-200h.png"
                 className={styles['icon02']}
               />
-              <span className={styles['text017']}>Schedule</span>
-              <span className={styles['text018']}>
+              <span className={styles['text018']}>Schedule</span>
+              <span className={styles['text019']}>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor
               </span>
@@ -167,21 +170,21 @@ closeButton.addEventListener("click", function() {
                 src="/playground_assets/pastedimage-mimg-200h.png"
                 className={styles['icon03']}
               />
-              <span className={styles['text019']}>Publish</span>
-              <span className={styles['text020']}>
+              <span className={styles['text020']}>Publish</span>
+              <span className={styles['text021']}>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sedr
               </span>
             </div>
           </div>
-          <div className={styles['container2']}>
+          <div className={styles['container03']}>
             <div className={` ${projectStyles['card']} ${styles['analyze']} `}>
               <img
                 alt="pastedImage"
                 src="/playground_assets/pastedimage-l6p-200h.png"
                 className={styles['icon04']}
               />
-              <span className={styles['text021']}>Analyze</span>
-              <span className={styles['text022']}>
+              <span className={styles['text022']}>Analyze</span>
+              <span className={styles['text023']}>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor
               </span>
@@ -192,8 +195,8 @@ closeButton.addEventListener("click", function() {
                 src="/playground_assets/pastedimage-vyi5-200h.png"
                 className={styles['icon05']}
               />
-              <span className={styles['text023']}>Get leads</span>
-              <span className={styles['text024']}>
+              <span className={styles['text024']}>Get leads</span>
+              <span className={styles['text025']}>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor
               </span>
@@ -215,14 +218,14 @@ closeButton.addEventListener("click", function() {
               className={styles['avatar']}
             />
             <span className={styles['quote1']}>
-              <span className={styles['text025']}>—  Peter McPau</span>
+              <span className={styles['text026']}>—  Peter McPau</span>
               <span>, Founder and CEO, Active</span>
             </span>
           </div>
         </div>
       </section>
       <section className={styles['statistics']}>
-        <div className={styles['container3']}>
+        <div className={styles['container04']}>
           <ActiveUsers Caption="— Active users" Statistic="3.5M"></ActiveUsers>
           <ActiveUsers Caption="— Brands" Statistic="50k"></ActiveUsers>
           <ActiveUsers
@@ -234,24 +237,24 @@ closeButton.addEventListener("click", function() {
       </section>
       <section className={styles['banners']}>
         <div className={styles['banner-manage']}>
-          <div className={styles['container4']}>
+          <div className={styles['container05']}>
             <div className={styles['left1']}>
               <span className={projectStyles['sub-title']}>
                 Content Management
               </span>
               <span
-                className={` ${styles['text028']} ${projectStyles['title']} `}
+                className={` ${styles['text029']} ${projectStyles['title']} `}
               >
                 Manage all your platforms in just one place.
               </span>
-              <span className={styles['text029']}>
+              <span className={styles['text030']}>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua. vv
               </span>
               <div
                 className={` ${styles['get-started2']} ${projectStyles['template-button']} `}
               >
-                <span className={styles['text030']}>Get started</span>
+                <span className={styles['text031']}>Get started</span>
               </div>
             </div>
             <div className={styles['image-container']}>
@@ -282,48 +285,48 @@ closeButton.addEventListener("click", function() {
                 />
               </span>
               <h2
-                className={` ${styles['text032']} ${projectStyles['title']} `}
+                className={` ${styles['text033']} ${projectStyles['title']} `}
               >
                 Advanced analytics, easy to understand.
               </h2>
               <div className={styles['category']}>
-                <span className={styles['text033']}>Power reports</span>
-                <span className={styles['text034']}>
+                <span className={styles['text034']}>Power reports</span>
+                <span className={styles['text035']}>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                   vv
                 </span>
-                <span className={styles['text035']}>Example -&gt;</span>
+                <span className={styles['text036']}>Example -&gt;</span>
               </div>
               <div className={styles['category1']}>
-                <span className={styles['text036']}>Power reports</span>
-                <span className={styles['text037']}>
+                <span className={styles['text037']}>Power reports</span>
+                <span className={styles['text038']}>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                   vv
                 </span>
-                <span className={styles['text038']}>Example -&gt;</span>
+                <span className={styles['text039']}>Example -&gt;</span>
               </div>
             </div>
           </div>
         </div>
         <div className={styles['banner']}>
-          <div className={styles['container5']}>
+          <div className={styles['container06']}>
             <div className={styles['left2']}>
-              <span className={styles['text039']}>Improve Scheduling</span>
+              <span className={styles['text040']}>Improve Scheduling</span>
               <h2
-                className={` ${styles['text040']} ${projectStyles['title']} `}
+                className={` ${styles['text041']} ${projectStyles['title']} `}
               >
                 Powerful scheduler that saves you time
               </h2>
-              <span className={styles['text041']}>
+              <span className={styles['text042']}>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua. vv
               </span>
               <div
                 className={` ${styles['get-started3']} ${projectStyles['template-button']} `}
               >
-                <span className={styles['text042']}>Get started</span>
+                <span className={styles['text043']}>Get started</span>
               </div>
             </div>
             <div className={styles['image-container2']}>
@@ -343,20 +346,20 @@ closeButton.addEventListener("click", function() {
             <span className={projectStyles['title']}>
               Integrated with the tools you know and love
             </span>
-            <span className={styles['text045']}>
+            <span className={styles['text046']}>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. vv
             </span>
           </div>
           <div className={styles['pills-container']}>
             <div className={styles['pills']}>
-              <div className={styles['container6']}>
+              <div className={styles['container07']}>
                 <YouTube></YouTube>
                 <YouTube pastedImage_src="/playground_assets/group%201012-200h.png"></YouTube>
                 <YouTube pastedImage_src="/playground_assets/layer1-200h.png"></YouTube>
                 <YouTube pastedImage_src="/playground_assets/group-200h.png"></YouTube>
               </div>
-              <div className={styles['container7']}>
+              <div className={styles['container08']}>
                 <YouTube pastedImage_src="/playground_assets/pinterest%20logo-200h.png"></YouTube>
                 <YouTube pastedImage_src="/playground_assets/group%201014-200h.png"></YouTube>
                 <YouTube pastedImage_src="/playground_assets/group%201015-200h.png"></YouTube>
@@ -369,16 +372,16 @@ closeButton.addEventListener("click", function() {
       <section className={styles['how-it-works']}>
         <div className={styles['centered-container2']}>
           <div className={styles['heading1']}>
-            <span className={styles['text046']}>How it works</span>
+            <span className={styles['text047']}>How it works</span>
             <span
-              className={` ${styles['text047']} ${projectStyles['title']} `}
+              className={` ${styles['text048']} ${projectStyles['title']} `}
             >
               Being social and getting leads has never been easier
             </span>
           </div>
           <div className={styles['category2']}>
             <div className={styles['headng']}>
-              <span className={styles['text048']}>
+              <span className={styles['text049']}>
                 1 — Sign up
                 <span
                   dangerouslySetInnerHTML={{
@@ -386,17 +389,17 @@ closeButton.addEventListener("click", function() {
                   }}
                 />
               </span>
-              <span className={styles['text049']}>
+              <span className={styles['text050']}>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua. vv
               </span>
               <div
                 className={` ${styles['get-started4']} ${projectStyles['template-button']} `}
               >
-                <span className={styles['text050']}>Get started</span>
+                <span className={styles['text051']}>Get started</span>
               </div>
             </div>
-            <div className={styles['container8']}>
+            <div className={styles['container09']}>
               <img
                 alt="pastedImage"
                 src="/playground_assets/pastedimage-k5xi.svg"
@@ -407,8 +410,8 @@ closeButton.addEventListener("click", function() {
           <div className={styles['row']}>
             <div className={styles['category3']}>
               <div className={styles['headng1']}>
-                <span className={styles['text051']}>2 — Act</span>
-                <span className={styles['text052']}>
+                <span className={styles['text052']}>2 — Act</span>
+                <span className={styles['text053']}>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                   vv
@@ -422,8 +425,8 @@ closeButton.addEventListener("click", function() {
             </div>
             <div className={styles['category4']}>
               <div className={styles['headng2']}>
-                <span className={styles['text053']}>2 — Act</span>
-                <span className={styles['text054']}>
+                <span className={styles['text054']}>2 — Act</span>
+                <span className={styles['text055']}>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                   vv
@@ -442,32 +445,32 @@ closeButton.addEventListener("click", function() {
         <div className={styles['centered-container3']}>
           <div className={styles['heading2']}>
             <span
-              className={` ${styles['text055']} ${projectStyles['title']} `}
+              className={` ${styles['text056']} ${projectStyles['title']} `}
             >
               Pricing for all kind of businesses
             </span>
-            <span className={styles['text056']}>
+            <span className={styles['text057']}>
               Create next-generation solutions for small business customers with
               pricing options that accommodate everyone.
             </span>
             <div className={styles['selection']}>
-              <span className={styles['text057']}>Monthly</span>
-              <span className={styles['text058']}>Yearly</span>
+              <span className={styles['text058']}>Monthly</span>
+              <span className={styles['text059']}>Yearly</span>
             </div>
           </div>
           <div className={styles['cards1']}>
             <div className={styles['card']}>
-              <span className={styles['text059']}>Free</span>
-              <span className={styles['text060']}>
+              <span className={styles['text060']}>Free</span>
+              <span className={styles['text061']}>
                 Unlimited lorem ipsum dolor sit amet, consectetur adipiscing
                 elit, sed doliqua.
               </span>
               <div
                 className={` ${styles['get-started5']} ${projectStyles['template-button']} `}
               >
-                <span className={styles['text061']}>Start for free</span>
+                <span className={styles['text062']}>Start for free</span>
               </div>
-              <span className={styles['text062']}>What&apos;s included</span>
+              <span className={styles['text063']}>What&apos;s included</span>
               <div className={styles['bullet-points']}>
                 <div className={styles['point']}>
                   <svg
@@ -476,7 +479,7 @@ closeButton.addEventListener("click", function() {
                   >
                     <path d="M877.714 512c0 242.286-196.571 438.857-438.857 438.857s-438.857-196.571-438.857-438.857 196.571-438.857 438.857-438.857 438.857 196.571 438.857 438.857z"></path>
                   </svg>
-                  <span className={styles['text063']}>
+                  <span className={styles['text064']}>
                     Sed ut pespiciatis unde omnis
                   </span>
                 </div>
@@ -487,15 +490,15 @@ closeButton.addEventListener("click", function() {
                   >
                     <path d="M877.714 512c0 242.286-196.571 438.857-438.857 438.857s-438.857-196.571-438.857-438.857 196.571-438.857 438.857-438.857 438.857 196.571 438.857 438.857z"></path>
                   </svg>
-                  <span className={styles['text064']}>
+                  <span className={styles['text065']}>
                     Sed ut pespiciatis unde omnis
                   </span>
                 </div>
               </div>
             </div>
             <div className={styles['card1']}>
-              <span className={styles['text065']}>Pay as you go</span>
-              <span className={styles['text066']}>
+              <span className={styles['text066']}>Pay as you go</span>
+              <span className={styles['text067']}>
                 <span>Launch your lorem for $49/mo</span>
                 <br></br>
                 <span>lorem ipsum dolor sit amet, consectetur adipiscing.</span>
@@ -503,12 +506,12 @@ closeButton.addEventListener("click", function() {
               <div
                 className={` ${styles['get-started6']} ${projectStyles['template-button']} `}
               >
-                <span className={styles['text070']}>
+                <span className={styles['text071']}>
                   <span>Upgrade now</span>
                   <br></br>
                 </span>
               </div>
-              <span className={styles['text073']}>What&apos;s included</span>
+              <span className={styles['text074']}>What&apos;s included</span>
               <div className={styles['bullet-points1']}>
                 <div className={styles['point02']}>
                   <svg
@@ -517,7 +520,7 @@ closeButton.addEventListener("click", function() {
                   >
                     <path d="M877.714 512c0 242.286-196.571 438.857-438.857 438.857s-438.857-196.571-438.857-438.857 196.571-438.857 438.857-438.857 438.857 196.571 438.857 438.857z"></path>
                   </svg>
-                  <span className={styles['text074']}>
+                  <span className={styles['text075']}>
                     Sed ut pespiciatis unde omnis
                   </span>
                 </div>
@@ -528,7 +531,7 @@ closeButton.addEventListener("click", function() {
                   >
                     <path d="M877.714 512c0 242.286-196.571 438.857-438.857 438.857s-438.857-196.571-438.857-438.857 196.571-438.857 438.857-438.857 438.857 196.571 438.857 438.857z"></path>
                   </svg>
-                  <span className={styles['text075']}>
+                  <span className={styles['text076']}>
                     Sed ut pespiciatis unde omnis
                   </span>
                 </div>
@@ -539,7 +542,7 @@ closeButton.addEventListener("click", function() {
                   >
                     <path d="M877.714 512c0 242.286-196.571 438.857-438.857 438.857s-438.857-196.571-438.857-438.857 196.571-438.857 438.857-438.857 438.857 196.571 438.857 438.857z"></path>
                   </svg>
-                  <span className={styles['text076']}>
+                  <span className={styles['text077']}>
                     Sed ut pespiciatis unde omnis
                   </span>
                 </div>
@@ -550,15 +553,15 @@ closeButton.addEventListener("click", function() {
                   >
                     <path d="M877.714 512c0 242.286-196.571 438.857-438.857 438.857s-438.857-196.571-438.857-438.857 196.571-438.857 438.857-438.857 438.857 196.571 438.857 438.857z"></path>
                   </svg>
-                  <span className={styles['text077']}>
+                  <span className={styles['text078']}>
                     Sed ut pespiciatis unde omnis
                   </span>
                 </div>
               </div>
             </div>
             <div className={styles['card2']}>
-              <span className={styles['text078']}>Enterprise</span>
-              <span className={styles['text079']}>
+              <span className={styles['text079']}>Enterprise</span>
+              <span className={styles['text080']}>
                 <span>
                   Custom-built lorem ipsum dolor sit amet, consectetur
                   adipiscing elit, sed doliqua.
@@ -568,12 +571,12 @@ closeButton.addEventListener("click", function() {
               <div
                 className={` ${styles['get-started7']} ${projectStyles['template-button']} `}
               >
-                <span className={styles['text082']}>
+                <span className={styles['text083']}>
                   <span>Contact us</span>
                   <br></br>
                 </span>
               </div>
-              <span className={styles['text085']}>What&apos;s included</span>
+              <span className={styles['text086']}>What&apos;s included</span>
               <div className={styles['bullet-points2']}>
                 <div className={styles['point06']}>
                   <svg
@@ -582,7 +585,7 @@ closeButton.addEventListener("click", function() {
                   >
                     <path d="M877.714 512c0 242.286-196.571 438.857-438.857 438.857s-438.857-196.571-438.857-438.857 196.571-438.857 438.857-438.857 438.857 196.571 438.857 438.857z"></path>
                   </svg>
-                  <span className={styles['text086']}>
+                  <span className={styles['text087']}>
                     Sed ut pespiciatis unde omnis
                   </span>
                 </div>
@@ -593,7 +596,7 @@ closeButton.addEventListener("click", function() {
                   >
                     <path d="M877.714 512c0 242.286-196.571 438.857-438.857 438.857s-438.857-196.571-438.857-438.857 196.571-438.857 438.857-438.857 438.857 196.571 438.857 438.857z"></path>
                   </svg>
-                  <span className={styles['text087']}>
+                  <span className={styles['text088']}>
                     Sed ut pespiciatis unde omnis
                   </span>
                 </div>
@@ -604,7 +607,7 @@ closeButton.addEventListener("click", function() {
                   >
                     <path d="M877.714 512c0 242.286-196.571 438.857-438.857 438.857s-438.857-196.571-438.857-438.857 196.571-438.857 438.857-438.857 438.857 196.571 438.857 438.857z"></path>
                   </svg>
-                  <span className={styles['text088']}>
+                  <span className={styles['text089']}>
                     Sed ut pespiciatis unde omnis
                   </span>
                 </div>
@@ -615,7 +618,7 @@ closeButton.addEventListener("click", function() {
                   >
                     <path d="M877.714 512c0 242.286-196.571 438.857-438.857 438.857s-438.857-196.571-438.857-438.857 196.571-438.857 438.857-438.857 438.857 196.571 438.857 438.857z"></path>
                   </svg>
-                  <span className={styles['text089']}>
+                  <span className={styles['text090']}>
                     Sed ut pespiciatis unde omnis
                   </span>
                 </div>
@@ -626,8 +629,8 @@ closeButton.addEventListener("click", function() {
       </section>
       <section className={styles['testimonals']}>
         <div className={styles['left3']}>
-          <span className={styles['text090']}>Testimonals</span>
-          <span className={` ${styles['text091']} ${projectStyles['title']} `}>
+          <span className={styles['text091']}>Testimonals</span>
+          <span className={` ${styles['text092']} ${projectStyles['title']} `}>
             What people say about Active
           </span>
         </div>
@@ -683,7 +686,7 @@ closeButton.addEventListener("click", function() {
             ></Testimonal>
           </div>
         </div>
-        <span className={styles['text092']}>
+        <span className={styles['text093']}>
           <span>Show more</span>
           <br></br>
         </span>
@@ -692,19 +695,19 @@ closeButton.addEventListener("click", function() {
         <div className={styles['action']}>
           <div className={styles['heading3']}>
             <span
-              className={` ${styles['text095']} ${projectStyles['title']} `}
+              className={` ${styles['text096']} ${projectStyles['title']} `}
             >
               <span>Get leads now </span>
               <br></br>
               <span>with Active!</span>
             </span>
-            <span className={styles['text099']}>
+            <span className={styles['text100']}>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit.
             </span>
             <div
               className={` ${styles['get-started8']} ${projectStyles['template-button']} `}
             >
-              <span className={styles['text100']}>
+              <span className={styles['text101']}>
                 <span>Start free</span>
                 <br></br>
               </span>
@@ -721,10 +724,10 @@ closeButton.addEventListener("click", function() {
       </section>
       <section className={styles['f-a-q']}>
         <div className={styles['heading4']}>
-          <span className={` ${styles['text103']} ${projectStyles['title']} `}>
+          <span className={` ${styles['text104']} ${projectStyles['title']} `}>
             Frequently asked questions
           </span>
-          <span className={styles['text104']}>
+          <span className={styles['text105']}>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. vv
           </span>
@@ -735,7 +738,7 @@ closeButton.addEventListener("click", function() {
             className={projectStyles['accordion-container']}
           >
             <div className={styles['header1']}>
-              <span className={styles['text105']}>
+              <span className={styles['text106']}>
                 — What is sit amet, consectetur adipiscing elit, sed do?
                 <span
                   dangerouslySetInnerHTML={{
@@ -751,7 +754,7 @@ closeButton.addEventListener("click", function() {
               </svg>
             </div>
             <div className={projectStyles['accordion-content']}>
-              <span className={styles['text106']}>
+              <span className={styles['text107']}>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua.
                 Excepteur sint occaecat cupidatat non proident, sunt in culpa
@@ -766,7 +769,7 @@ closeButton.addEventListener("click", function() {
           </div>
           <div className={projectStyles['accordion-container']}>
             <div className={styles['header2']}>
-              <span className={styles['text107']}>
+              <span className={styles['text108']}>
                 — Why is dolore magna aliqua excepteur sint
               </span>
               <svg
@@ -777,7 +780,7 @@ closeButton.addEventListener("click", function() {
               </svg>
             </div>
             <div className={projectStyles['accordion-content']}>
-              <span className={styles['text108']}>
+              <span className={styles['text109']}>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua.
                 Excepteur sint occaecat cupidatat non proident, sunt in culpa
@@ -795,7 +798,7 @@ closeButton.addEventListener("click", function() {
             className={projectStyles['accordion-container']}
           >
             <div className={styles['header3']}>
-              <span className={styles['text109']}>
+              <span className={styles['text110']}>
                 — Is excepteur sint occaecat cupidatat non proident, sunt in
                 culpa qui officia deserunt mollit anim id est laborum?
                 <span
@@ -812,7 +815,7 @@ closeButton.addEventListener("click", function() {
               </svg>
             </div>
             <div className={projectStyles['accordion-content']}>
-              <span className={styles['text110']}>
+              <span className={styles['text111']}>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua.
                 Excepteur sint occaecat cupidatat non proident, sunt in culpa
@@ -830,7 +833,7 @@ closeButton.addEventListener("click", function() {
             className={projectStyles['accordion-container']}
           >
             <div className={styles['header4']}>
-              <span className={styles['text111']}>
+              <span className={styles['text112']}>
                 — Who quasi architecto beatae vitae dicta sunt explicabo. Nemo
                 enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut
                 fugit, sed quia consequuntur magni
@@ -848,7 +851,7 @@ closeButton.addEventListener("click", function() {
               </svg>
             </div>
             <div className={projectStyles['accordion-content']}>
-              <span className={styles['text112']}>
+              <span className={styles['text113']}>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua.
                 Excepteur sint occaecat cupidatat non proident, sunt in culpa
@@ -866,7 +869,7 @@ closeButton.addEventListener("click", function() {
             className={projectStyles['accordion-container']}
           >
             <div className={styles['header5']}>
-              <span className={styles['text113']}>
+              <span className={styles['text114']}>
                 — Is minim veniam quis nostrud exercitation ullamco laboris nisi
                 ut aliquip ex ea commodo consequat.
               </span>
@@ -878,7 +881,7 @@ closeButton.addEventListener("click", function() {
               </svg>
             </div>
             <div className={projectStyles['accordion-content']}>
-              <span className={styles['text114']}>
+              <span className={styles['text115']}>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua.
                 Excepteur sint occaecat cupidatat non proident, sunt in culpa
@@ -952,7 +955,7 @@ Here's what the above is doing:
       <footer className={styles['footer']}>
         <div className={styles['top']}>
           <div className={styles['left4']}>
-            <span className={styles['text115']}>
+            <span className={styles['text116']}>
               Subscribe to our newsletter
             </span>
             <div className={styles['subscription']}>
@@ -962,15 +965,15 @@ Here's what the above is doing:
                 className={` ${styles['textinput']} ${projectStyles['input']} `}
               />
               <div className={styles['subscribe']}>
-                <span className={styles['text116']}>Subscribe</span>
+                <span className={styles['text117']}>Subscribe</span>
               </div>
             </div>
-            <span className={styles['text117']}>
+            <span className={styles['text118']}>
               By subscribing to our newsletter you agree with our Terms and
               Conditions.
             </span>
             <div className={styles['contact']}>
-              <span className={styles['text118']}>Contact</span>
+              <span className={styles['text119']}>Contact</span>
               <a
                 href="mailto:use@active-app.com?subject=Support"
                 className={styles['link']}
@@ -981,40 +984,40 @@ Here's what the above is doing:
           </div>
           <div className={styles['right3']}>
             <div className={styles['category5']}>
-              <span className={styles['text119']}>Solutions</span>
+              <span className={styles['text120']}>Solutions</span>
               <div className={styles['links2']}>
-                <span className={styles['text120']}>Responsive Web Design</span>
-                <span className={styles['text121']}>
+                <span className={styles['text121']}>Responsive Web Design</span>
+                <span className={styles['text122']}>
                   Responsive Prototypesv
                 </span>
-                <span className={styles['text122']}>Design to Code</span>
-                <span className={styles['text123']}>
+                <span className={styles['text123']}>Design to Code</span>
+                <span className={styles['text124']}>
                   Static Website Builder
                 </span>
-                <span className={styles['text124']}>
+                <span className={styles['text125']}>
                   Static Website Generator
                 </span>
               </div>
             </div>
             <div className={styles['category6']}>
-              <span className={styles['text125']}>Company</span>
+              <span className={styles['text126']}>Company</span>
               <div className={styles['links3']}>
-                <span className={styles['text126']}>About</span>
-                <span className={styles['text127']}>Team</span>
-                <span className={styles['text128']}>News</span>
-                <span className={styles['text129']}>Partners</span>
-                <span className={styles['text130']}>Careers</span>
-                <span className={styles['text131']}>Press &amp; Media</span>
+                <span className={styles['text127']}>About</span>
+                <span className={styles['text128']}>Team</span>
+                <span className={styles['text129']}>News</span>
+                <span className={styles['text130']}>Partners</span>
+                <span className={styles['text131']}>Careers</span>
+                <span className={styles['text132']}>Press &amp; Media</span>
               </div>
             </div>
             <div className={styles['category7']}>
-              <span className={styles['text132']}>Solutions</span>
+              <span className={styles['text133']}>Solutions</span>
               <div className={styles['links4']}>
-                <span className={styles['text133']}>Twitter</span>
-                <span className={styles['text134']}>Linkedin</span>
-                <span className={styles['text135']}>Crunchbase</span>
-                <span className={styles['text136']}>Instagram</span>
-                <span className={styles['text137']}>Facebook</span>
+                <span className={styles['text134']}>Twitter</span>
+                <span className={styles['text135']}>Linkedin</span>
+                <span className={styles['text136']}>Crunchbase</span>
+                <span className={styles['text137']}>Instagram</span>
+                <span className={styles['text138']}>Facebook</span>
               </div>
             </div>
           </div>
@@ -1025,7 +1028,7 @@ Here's what the above is doing:
             src="/playground_assets/pastedimage-no9b-1500h.png"
             className={styles['branding']}
           />
-          <span className={styles['text138']}>Copyright © Active - 2022</span>
+          <span className={styles['text139']}>Copyright © Active - 2022</span>
         </div>
       </footer>
     </div>

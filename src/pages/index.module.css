@@ -111,9 +111,6 @@
   margin-left: 33px;
   flex-direction: row;
 }
-.link {
-  text-decoration: none;
-}
 .right {
   height: 100%;
   display: flex;
@@ -1586,7 +1583,7 @@
   font-weight: 700;
   margin-bottom: var(--dl-space-space-unit);
 }
-.link1 {
+.link {
   color: #C4C4C4;
   font-size: 14px;
   text-decoration: underline;
@@ -1976,7 +1973,7 @@
   .text118 {
     margin-bottom: var(--dl-space-space-unit);
   }
-  .link1 {
+  .link {
     text-decoration: underline none;
   }
   .right3 {

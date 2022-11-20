@@ -51,12 +51,6 @@ const Home = (props) => {
                     <span className={projectStyles['link']}>Solutions</span>
                     <span className={projectStyles['link']}>How it works</span>
                     <span className={projectStyles['link']}>Prices</span>
-                    <a
-                      href="https://publi-github-netlify.netlify.app/"
-                      className={` ${styles['link']} ${projectStyles['link']} `}
-                    >
-                      Blog
-                    </a>
                   </div>
                 </div>
               </div>
@@ -981,7 +975,7 @@ Here's what the above is doing:
               <span className={styles['text118']}>Contact</span>
               <a
                 href="mailto:use@active-app.com?subject=Support"
-                className={styles['link1']}
+                className={styles['link']}
               >
                 use@active-app.com
               </a>

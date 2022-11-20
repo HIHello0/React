@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://hihello0.github.io/React/sitemap.xml

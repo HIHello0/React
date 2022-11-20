@@ -1,0 +1,735 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+    <title>Blog Test</title>
+    <link href="https://hihello0.github.io/React/feed.xml" rel="self" />
+    <link href="https://hihello0.github.io/React" />
+    <updated>2022-11-14T00:07:12+05:30</updated>
+    <author>
+        <name>Raj</name>
+    </author>
+    <id>https://hihello0.github.io/React</id>
+
+    <entry>
+        <title>dasHello Testing (copy)</title>
+        <author>
+            <name>Raj</name>
+        </author>
+        <link href="https://hihello0.github.io/React/hello-testing-4/"/>
+        <id>https://hihello0.github.io/React/hello-testing-4/</id>
+        <media:content url="https://hihello0.github.io/React/media/posts/12/pika-1668190419511-1x.png" medium="image" />
+
+        <updated>2022-11-14T00:07:12+05:30</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://hihello0.github.io/React/media/posts/12/pika-1668190419511-1x.png" alt="" />
+                    App Settings The general settings customize your experience when using Publii, rather than changing individual websites that the app has&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://hihello0.github.io/React/media/posts/12/pika-1668190419511-1x.png" class="type:primaryImage" alt="" /></p>
+                <header>
+<h1 id="publii-global-settings" class="post__title Lvl1">App Settings</h1>
+</header>
+<div class="post__entry">
+<p>The general settings customize your experience when using Publii, rather than changing individual websites that the app has created. There are five areas in this section, starting with a <strong>Basic Settings</strong> block that contains the following options:</p>
+<script charset="utf-8" type="text/javascript" src="//js-eu1.hsforms.net/forms/embed/v2.js"></script>
+<script>
+  hbspt.forms.create({
+    region: "eu1",
+    portalId: "25130776",
+    formId: "2bd978c3-36a1-430d-adb3-997297da5865"
+  });
+</script>
+<p> </p>
+<p> </p>
+<figure class="post__image"><figure class="is-loaded"><img loading="lazy"  src="https://getpublii.com/docs/media/posts/19/global-basic-settings-2.svg" alt="Publii General Settings" width="748" height="768" loading="lazy" data-is-external-image="true"></figure></figure>
+<ul>
+<li><strong>Color Theme </strong>- Sets the color theme for Publii; choose between light or dark mode, or automatically use the same setting as your desktop.</li>
+<li><strong>Load At Start</strong> - This option sets which of your websites will be opened when you start Publii, or to default to the last-used website.</li>
+<li><strong>Time Format</strong> - Set your timestamps to be in 12 or 24-hour format.</li>
+<li><strong>Image Resize Engine</strong> - Set which engine should handle image manipulation; <strong>Sharp</strong> is faster, but some users encounter issues with their images when this is enabled. In such cases, use <strong>Jimp</strong>, which is more stable.</li>
+<li><strong>Always save search state </strong>- When<span class="note" data-v-23b47097="" data-v-b539cd42=""> enabled, Publii will save the current search results even when creating a new post, allowing you to return to the listing. By default, Publii only saves search results when opening a post to edit.</span></li>
+<li><strong>Show modification date</strong> - When enabled, the modification date will be displayed under the publication date.</li>
+<li><strong>Show modification date as column</strong> - When enabled, an additional column with the modification date will be displayed in the post list.</li>
+<li><strong>Show post slugs on the listing</strong> - When enabled, the post slug will be displayed under the post title in the post list.</li>
+<li><strong>Show post tags on the listing</strong> - When enabled, the tags will be displayed under the post title in the post list.</li>
+<li><strong>Use wider scrollbars</strong> - Enables wider scrollbars in the Publii app; useful if you're using a high resolution and want the scrollbars to be more visible.</li>
+</ul>
+<p>The second block in this section is the <strong>Files Location</strong> block; there are three options available:</p>
+<figure class="is-loaded"><img loading="lazy"  src="https://getpublii.com/docs/media/posts/19/files-location.svg" alt="Publii Files Location" width="748" height="210" loading="lazy" data-is-external-image="true"></figure>
+<ul>
+<li><strong>Sites Location</strong> - Define where the files for the websites you create with Publii, including themes, are stored. This can be set to, for example, your Dropbox folder to backup your site in the cloud, or any local directory.</li>
+<li><strong>Backup Location</strong> - Defines where backups created in the <strong>Backups</strong> section of the app are stored; again, this can be set your local cloud folder to allow for your backups to be stored online, or stored locally.</li>
+<li><strong>Preview Location</strong> - Define where the files of the website preview are stored. Leave blank to use default preview directory.</li>
+</ul>
+<p>The third block covers <strong>Default lists ordering</strong>; this tells Publii how you want your content such as posts, tags, authors etc...to be displayed in their respective listings. By default, all lists are sorted descending by ID i.e. newest item first, oldest item last. The available options here are:</p>
+<figure class="post__image"><figure class="is-loaded"><img loading="lazy"  src="https://getpublii.com/docs/media/posts/19/default-ordering-on-lists-2.svg" alt="Default posts ordering on the lists" width="748" height="263" loading="lazy" data-is-external-image="true"></figure></figure>
+<ul>
+<li><strong>Default posts ordering </strong>- Sets the ordering for the <strong>Posts</strong> listing. </li>
+<li><strong>Default tags ordering</strong> - Defines the ordering for <strong>Tag</strong> listings.</li>
+<li><strong>Default authors ordering</strong> - Sets the ordering of the <strong>Authors </strong>listing.</li>
+</ul>
+<p>Each listing can be set to order by <strong>ID</strong>, <strong>Creation Date</strong>, <strong>Date last modified</strong>, or alphabetically by <strong>Title</strong> or <strong>Author</strong>; each of these can also be set to ascending or descending.</p>
+<p>The fourth block in this section contains <strong>Options for Editors</strong>; that is, the people that write and edit posts. These options set the default behaviour when writing posts. The available options are:</p>
+<figure class="post__image"><figure class="is-loaded"><img loading="lazy"  src="https://getpublii.com/docs/media/posts/19/options-for-editors-2.svg" alt="Options for post editors" width="748" height="263" loading="lazy" data-is-external-image="true"></figure></figure>
+<ul>
+<li><strong>Font Size (px)</strong> - Sets the standard font size in pixels that the post editor should use.</li>
+<li><strong>Font Family </strong>- Defines the basic font that the post editor should use.</li>
+<li><strong>Close Post Editor on Save </strong>- If enabled, the post editor will default to using the <strong>Save &amp; Close </strong>option for the save button; this can still be changed manually when editing a document by clicking on the down-arrow on the right-side of the button.</li>
+</ul>
+<p>The fifth block in this section covers <strong>Options for Developers</strong>, with tools that may be useful for developers creating their own themes or branches of Publii. The available options in this section are:</p>
+<figure class="post__image"><figure class="is-loaded"><img loading="lazy"  src="https://getpublii.com/docs/media/posts/19/options-for-developers.svg" alt="Options for developers" width="748" height="247" loading="lazy" data-is-external-image="true"></figure></figure>
+<ul>
+<li><strong>Open DevTools Automatically in the Main Window</strong> - When enabled, this option will automatically load DevTools for troubleshooting as soon as Publii is loaded. Requires a restart of the app before changes will take effect.</li>
+<li><strong>Enable Advanced Preview </strong>- When enabled, clicking the <strong>Preview Your Changes </strong>button will generate the site preview files, but will not render them for display.</li>
+</ul>
+<p>The final section of the <strong>App Settings </strong>is for <strong>Experimental Features</strong>; features that are still being tested, or have not been fully-implemented. The currently available options in this section are:</p>
+<ul>
+<li><strong>Publii UI Translations </strong>- When enabled, a <strong>Languages </strong>section will be added to the <strong>Three-Dot Menu</strong>, in which you will be able to select which UI language you wish to use, and link to the <strong>Publii GitHub </strong>page where user translations into other languages may be downloaded for installation.</li>
+<li><strong>Auto-Beautify Source Code in WYSIWYG Editor </strong>- If enabled, when viewing a post's content in the editor as the source HTML code, it will be automatically laid out in order to be more readable, rather than minified.</li>
+</ul>
+</div>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>Test 2 (copy)</title>
+        <author>
+            <name>Raj</name>
+        </author>
+        <link href="https://hihello0.github.io/React/test-9/"/>
+        <id>https://hihello0.github.io/React/test-9/</id>
+
+        <updated>2022-11-12T07:46:54+05:30</updated>
+            <summary>
+                <![CDATA[
+                    App Settings The general settings customize your experience when using Publii, rather than changing individual websites that the app has&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <header>
+<h1 id="publii-global-settings" class="post__title Lvl1">App Settings</h1>
+</header>
+<div class="post__entry">
+<p>The general settings customize your experience when using Publii, rather than changing individual websites that the app has created. There are five areas in this section, starting with a <strong>Basic Settings</strong> block that contains the following options:</p>
+<figure class="post__image"><figure class="is-loaded"><img loading="lazy"  src="https://getpublii.com/docs/media/posts/19/global-basic-settings-2.svg" alt="Publii General Settings" width="748" height="768" loading="lazy" data-is-external-image="true"></figure></figure>
+<ul>
+<li><strong>Color Theme </strong>- Sets the color theme for Publii; choose between light or dark mode, or automatically use the same setting as your desktop.</li>
+<li><strong>Load At Start</strong> - This option sets which of your websites will be opened when you start Publii, or to default to the last-used website.</li>
+<li><strong>Time Format</strong> - Set your timestamps to be in 12 or 24-hour format.</li>
+<li><strong>Image Resize Engine</strong> - Set which engine should handle image manipulation; <strong>Sharp</strong> is faster, but some users encounter issues with their images when this is enabled. In such cases, use <strong>Jimp</strong>, which is more stable.</li>
+<li><strong>Always save search state </strong>- When<span class="note" data-v-23b47097="" data-v-b539cd42=""> enabled, Publii will save the current search results even when creating a new post, allowing you to return to the listing. By default, Publii only saves search results when opening a post to edit.</span></li>
+<li><strong>Show modification date</strong> - When enabled, the modification date will be displayed under the publication date.</li>
+<li><strong>Show modification date as column</strong> - When enabled, an additional column with the modification date will be displayed in the post list.</li>
+<li><strong>Show post slugs on the listing</strong> - When enabled, the post slug will be displayed under the post title in the post list.</li>
+<li><strong>Show post tags on the listing</strong> - When enabled, the tags will be displayed under the post title in the post list.</li>
+<li><strong>Use wider scrollbars</strong> - Enables wider scrollbars in the Publii app; useful if you're using a high resolution and want the scrollbars to be more visible.</li>
+</ul>
+<p>The second block in this section is the <strong>Files Location</strong> block; there are three options available:</p>
+<figure class="is-loaded"><img loading="lazy"  src="https://getpublii.com/docs/media/posts/19/files-location.svg" alt="Publii Files Location" width="748" height="210" loading="lazy" data-is-external-image="true"></figure>
+<ul>
+<li><strong>Sites Location</strong> - Define where the files for the websites you create with Publii, including themes, are stored. This can be set to, for example, your Dropbox folder to backup your site in the cloud, or any local directory.</li>
+<li><strong>Backup Location</strong> - Defines where backups created in the <strong>Backups</strong> section of the app are stored; again, this can be set your local cloud folder to allow for your backups to be stored online, or stored locally.</li>
+<li><strong>Preview Location</strong> - Define where the files of the website preview are stored. Leave blank to use default preview directory.</li>
+</ul>
+<p>The third block covers <strong>Default lists ordering</strong>; this tells Publii how you want your content such as posts, tags, authors etc...to be displayed in their respective listings. By default, all lists are sorted descending by ID i.e. newest item first, oldest item last. The available options here are:</p>
+<figure class="post__image"><figure class="is-loaded"><img loading="lazy"  src="https://getpublii.com/docs/media/posts/19/default-ordering-on-lists-2.svg" alt="Default posts ordering on the lists" width="748" height="263" loading="lazy" data-is-external-image="true"></figure></figure>
+<ul>
+<li><strong>Default posts ordering </strong>- Sets the ordering for the <strong>Posts</strong> listing. </li>
+<li><strong>Default tags ordering</strong> - Defines the ordering for <strong>Tag</strong> listings.</li>
+<li><strong>Default authors ordering</strong> - Sets the ordering of the <strong>Authors </strong>listing.</li>
+</ul>
+<p>Each listing can be set to order by <strong>ID</strong>, <strong>Creation Date</strong>, <strong>Date last modified</strong>, or alphabetically by <strong>Title</strong> or <strong>Author</strong>; each of these can also be set to ascending or descending.</p>
+<p>The fourth block in this section contains <strong>Options for Editors</strong>; that is, the people that write and edit posts. These options set the default behaviour when writing posts. The available options are:</p>
+<figure class="post__image"><figure class="is-loaded"><img loading="lazy"  src="https://getpublii.com/docs/media/posts/19/options-for-editors-2.svg" alt="Options for post editors" width="748" height="263" loading="lazy" data-is-external-image="true"></figure></figure>
+<ul>
+<li><strong>Font Size (px)</strong> - Sets the standard font size in pixels that the post editor should use.</li>
+<li><strong>Font Family </strong>- Defines the basic font that the post editor should use.</li>
+<li><strong>Close Post Editor on Save </strong>- If enabled, the post editor will default to using the <strong>Save &amp; Close </strong>option for the save button; this can still be changed manually when editing a document by clicking on the down-arrow on the right-side of the button.</li>
+</ul>
+<p>The fifth block in this section covers <strong>Options for Developers</strong>, with tools that may be useful for developers creating their own themes or branches of Publii. The available options in this section are:</p>
+<figure class="post__image"><figure class="is-loaded"><img loading="lazy"  src="https://getpublii.com/docs/media/posts/19/options-for-developers.svg" alt="Options for developers" width="748" height="247" loading="lazy" data-is-external-image="true"></figure></figure>
+<ul>
+<li><strong>Open DevTools Automatically in the Main Window</strong> - When enabled, this option will automatically load DevTools for troubleshooting as soon as Publii is loaded. Requires a restart of the app before changes will take effect.</li>
+<li><strong>Enable Advanced Preview </strong>- When enabled, clicking the <strong>Preview Your Changes </strong>button will generate the site preview files, but will not render them for display.</li>
+</ul>
+<p>The final section of the <strong>App Settings </strong>is for <strong>Experimental Features</strong>; features that are still being tested, or have not been fully-implemented. The currently available options in this section are:</p>
+<ul>
+<li><strong>Publii UI Translations </strong>- When enabled, a <strong>Languages </strong>section will be added to the <strong>Three-Dot Menu</strong>, in which you will be able to select which UI language you wish to use, and link to the <strong>Publii GitHub </strong>page where user translations into other languages may be downloaded for installation.</li>
+<li><strong>Auto-Beautify Source Code in WYSIWYG Editor </strong>- If enabled, when viewing a post's content in the editor as the source HTML code, it will be automatically laid out in order to be more readable, rather than minified.</li>
+</ul>
+</div>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>Test 3 (copy)</title>
+        <author>
+            <name>Raj</name>
+        </author>
+        <link href="https://hihello0.github.io/React/test-8/"/>
+        <id>https://hihello0.github.io/React/test-8/</id>
+
+        <updated>2022-11-12T07:46:53+05:30</updated>
+            <summary>
+                <![CDATA[
+                    App Settings The general settings customize your experience when using Publii, rather than changing individual websites that the app has&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <header>
+<h1 id="publii-global-settings" class="post__title Lvl1">App Settings</h1>
+</header>
+<div class="post__entry">
+<p>The general settings customize your experience when using Publii, rather than changing individual websites that the app has created. There are five areas in this section, starting with a <strong>Basic Settings</strong> block that contains the following options:</p>
+<figure class="post__image"><figure class="is-loaded"><img loading="lazy"  src="https://getpublii.com/docs/media/posts/19/global-basic-settings-2.svg" alt="Publii General Settings" width="748" height="768" loading="lazy" data-is-external-image="true"></figure></figure>
+<ul>
+<li><strong>Color Theme </strong>- Sets the color theme for Publii; choose between light or dark mode, or automatically use the same setting as your desktop.</li>
+<li><strong>Load At Start</strong> - This option sets which of your websites will be opened when you start Publii, or to default to the last-used website.</li>
+<li><strong>Time Format</strong> - Set your timestamps to be in 12 or 24-hour format.</li>
+<li><strong>Image Resize Engine</strong> - Set which engine should handle image manipulation; <strong>Sharp</strong> is faster, but some users encounter issues with their images when this is enabled. In such cases, use <strong>Jimp</strong>, which is more stable.</li>
+<li><strong>Always save search state </strong>- When<span class="note" data-v-23b47097="" data-v-b539cd42=""> enabled, Publii will save the current search results even when creating a new post, allowing you to return to the listing. By default, Publii only saves search results when opening a post to edit.</span></li>
+<li><strong>Show modification date</strong> - When enabled, the modification date will be displayed under the publication date.</li>
+<li><strong>Show modification date as column</strong> - When enabled, an additional column with the modification date will be displayed in the post list.</li>
+<li><strong>Show post slugs on the listing</strong> - When enabled, the post slug will be displayed under the post title in the post list.</li>
+<li><strong>Show post tags on the listing</strong> - When enabled, the tags will be displayed under the post title in the post list.</li>
+<li><strong>Use wider scrollbars</strong> - Enables wider scrollbars in the Publii app; useful if you're using a high resolution and want the scrollbars to be more visible.</li>
+</ul>
+<p>The second block in this section is the <strong>Files Location</strong> block; there are three options available:</p>
+<figure class="is-loaded"><img loading="lazy"  src="https://getpublii.com/docs/media/posts/19/files-location.svg" alt="Publii Files Location" width="748" height="210" loading="lazy" data-is-external-image="true"></figure>
+<ul>
+<li><strong>Sites Location</strong> - Define where the files for the websites you create with Publii, including themes, are stored. This can be set to, for example, your Dropbox folder to backup your site in the cloud, or any local directory.</li>
+<li><strong>Backup Location</strong> - Defines where backups created in the <strong>Backups</strong> section of the app are stored; again, this can be set your local cloud folder to allow for your backups to be stored online, or stored locally.</li>
+<li><strong>Preview Location</strong> - Define where the files of the website preview are stored. Leave blank to use default preview directory.</li>
+</ul>
+<p>The third block covers <strong>Default lists ordering</strong>; this tells Publii how you want your content such as posts, tags, authors etc...to be displayed in their respective listings. By default, all lists are sorted descending by ID i.e. newest item first, oldest item last. The available options here are:</p>
+<figure class="post__image"><figure class="is-loaded"><img loading="lazy"  src="https://getpublii.com/docs/media/posts/19/default-ordering-on-lists-2.svg" alt="Default posts ordering on the lists" width="748" height="263" loading="lazy" data-is-external-image="true"></figure></figure>
+<ul>
+<li><strong>Default posts ordering </strong>- Sets the ordering for the <strong>Posts</strong> listing. </li>
+<li><strong>Default tags ordering</strong> - Defines the ordering for <strong>Tag</strong> listings.</li>
+<li><strong>Default authors ordering</strong> - Sets the ordering of the <strong>Authors </strong>listing.</li>
+</ul>
+<p>Each listing can be set to order by <strong>ID</strong>, <strong>Creation Date</strong>, <strong>Date last modified</strong>, or alphabetically by <strong>Title</strong> or <strong>Author</strong>; each of these can also be set to ascending or descending.</p>
+<p>The fourth block in this section contains <strong>Options for Editors</strong>; that is, the people that write and edit posts. These options set the default behaviour when writing posts. The available options are:</p>
+<figure class="post__image"><figure class="is-loaded"><img loading="lazy"  src="https://getpublii.com/docs/media/posts/19/options-for-editors-2.svg" alt="Options for post editors" width="748" height="263" loading="lazy" data-is-external-image="true"></figure></figure>
+<ul>
+<li><strong>Font Size (px)</strong> - Sets the standard font size in pixels that the post editor should use.</li>
+<li><strong>Font Family </strong>- Defines the basic font that the post editor should use.</li>
+<li><strong>Close Post Editor on Save </strong>- If enabled, the post editor will default to using the <strong>Save &amp; Close </strong>option for the save button; this can still be changed manually when editing a document by clicking on the down-arrow on the right-side of the button.</li>
+</ul>
+<p>The fifth block in this section covers <strong>Options for Developers</strong>, with tools that may be useful for developers creating their own themes or branches of Publii. The available options in this section are:</p>
+<figure class="post__image"><figure class="is-loaded"><img loading="lazy"  src="https://getpublii.com/docs/media/posts/19/options-for-developers.svg" alt="Options for developers" width="748" height="247" loading="lazy" data-is-external-image="true"></figure></figure>
+<ul>
+<li><strong>Open DevTools Automatically in the Main Window</strong> - When enabled, this option will automatically load DevTools for troubleshooting as soon as Publii is loaded. Requires a restart of the app before changes will take effect.</li>
+<li><strong>Enable Advanced Preview </strong>- When enabled, clicking the <strong>Preview Your Changes </strong>button will generate the site preview files, but will not render them for display.</li>
+</ul>
+<p>The final section of the <strong>App Settings </strong>is for <strong>Experimental Features</strong>; features that are still being tested, or have not been fully-implemented. The currently available options in this section are:</p>
+<ul>
+<li><strong>Publii UI Translations </strong>- When enabled, a <strong>Languages </strong>section will be added to the <strong>Three-Dot Menu</strong>, in which you will be able to select which UI language you wish to use, and link to the <strong>Publii GitHub </strong>page where user translations into other languages may be downloaded for installation.</li>
+<li><strong>Auto-Beautify Source Code in WYSIWYG Editor </strong>- If enabled, when viewing a post's content in the editor as the source HTML code, it will be automatically laid out in order to be more readable, rather than minified.</li>
+</ul>
+</div>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>Test 3 (copy)</title>
+        <author>
+            <name>Raj</name>
+        </author>
+        <link href="https://hihello0.github.io/React/test-7/"/>
+        <id>https://hihello0.github.io/React/test-7/</id>
+
+        <updated>2022-11-12T07:46:53+05:30</updated>
+            <summary>
+                <![CDATA[
+                    App Settings The general settings customize your experience when using Publii, rather than changing individual websites that the app has&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <header>
+<h1 id="publii-global-settings" class="post__title Lvl1">App Settings</h1>
+</header>
+<div class="post__entry">
+<p>The general settings customize your experience when using Publii, rather than changing individual websites that the app has created. There are five areas in this section, starting with a <strong>Basic Settings</strong> block that contains the following options:</p>
+<figure class="post__image"><figure class="is-loaded"><img loading="lazy"  src="https://getpublii.com/docs/media/posts/19/global-basic-settings-2.svg" alt="Publii General Settings" width="748" height="768" loading="lazy" data-is-external-image="true"></figure></figure>
+<ul>
+<li><strong>Color Theme </strong>- Sets the color theme for Publii; choose between light or dark mode, or automatically use the same setting as your desktop.</li>
+<li><strong>Load At Start</strong> - This option sets which of your websites will be opened when you start Publii, or to default to the last-used website.</li>
+<li><strong>Time Format</strong> - Set your timestamps to be in 12 or 24-hour format.</li>
+<li><strong>Image Resize Engine</strong> - Set which engine should handle image manipulation; <strong>Sharp</strong> is faster, but some users encounter issues with their images when this is enabled. In such cases, use <strong>Jimp</strong>, which is more stable.</li>
+<li><strong>Always save search state </strong>- When<span class="note" data-v-23b47097="" data-v-b539cd42=""> enabled, Publii will save the current search results even when creating a new post, allowing you to return to the listing. By default, Publii only saves search results when opening a post to edit.</span></li>
+<li><strong>Show modification date</strong> - When enabled, the modification date will be displayed under the publication date.</li>
+<li><strong>Show modification date as column</strong> - When enabled, an additional column with the modification date will be displayed in the post list.</li>
+<li><strong>Show post slugs on the listing</strong> - When enabled, the post slug will be displayed under the post title in the post list.</li>
+<li><strong>Show post tags on the listing</strong> - When enabled, the tags will be displayed under the post title in the post list.</li>
+<li><strong>Use wider scrollbars</strong> - Enables wider scrollbars in the Publii app; useful if you're using a high resolution and want the scrollbars to be more visible.</li>
+</ul>
+<p>The second block in this section is the <strong>Files Location</strong> block; there are three options available:</p>
+<figure class="is-loaded"><img loading="lazy"  src="https://getpublii.com/docs/media/posts/19/files-location.svg" alt="Publii Files Location" width="748" height="210" loading="lazy" data-is-external-image="true"></figure>
+<ul>
+<li><strong>Sites Location</strong> - Define where the files for the websites you create with Publii, including themes, are stored. This can be set to, for example, your Dropbox folder to backup your site in the cloud, or any local directory.</li>
+<li><strong>Backup Location</strong> - Defines where backups created in the <strong>Backups</strong> section of the app are stored; again, this can be set your local cloud folder to allow for your backups to be stored online, or stored locally.</li>
+<li><strong>Preview Location</strong> - Define where the files of the website preview are stored. Leave blank to use default preview directory.</li>
+</ul>
+<p>The third block covers <strong>Default lists ordering</strong>; this tells Publii how you want your content such as posts, tags, authors etc...to be displayed in their respective listings. By default, all lists are sorted descending by ID i.e. newest item first, oldest item last. The available options here are:</p>
+<figure class="post__image"><figure class="is-loaded"><img loading="lazy"  src="https://getpublii.com/docs/media/posts/19/default-ordering-on-lists-2.svg" alt="Default posts ordering on the lists" width="748" height="263" loading="lazy" data-is-external-image="true"></figure></figure>
+<ul>
+<li><strong>Default posts ordering </strong>- Sets the ordering for the <strong>Posts</strong> listing. </li>
+<li><strong>Default tags ordering</strong> - Defines the ordering for <strong>Tag</strong> listings.</li>
+<li><strong>Default authors ordering</strong> - Sets the ordering of the <strong>Authors </strong>listing.</li>
+</ul>
+<p>Each listing can be set to order by <strong>ID</strong>, <strong>Creation Date</strong>, <strong>Date last modified</strong>, or alphabetically by <strong>Title</strong> or <strong>Author</strong>; each of these can also be set to ascending or descending.</p>
+<p>The fourth block in this section contains <strong>Options for Editors</strong>; that is, the people that write and edit posts. These options set the default behaviour when writing posts. The available options are:</p>
+<figure class="post__image"><figure class="is-loaded"><img loading="lazy"  src="https://getpublii.com/docs/media/posts/19/options-for-editors-2.svg" alt="Options for post editors" width="748" height="263" loading="lazy" data-is-external-image="true"></figure></figure>
+<ul>
+<li><strong>Font Size (px)</strong> - Sets the standard font size in pixels that the post editor should use.</li>
+<li><strong>Font Family </strong>- Defines the basic font that the post editor should use.</li>
+<li><strong>Close Post Editor on Save </strong>- If enabled, the post editor will default to using the <strong>Save &amp; Close </strong>option for the save button; this can still be changed manually when editing a document by clicking on the down-arrow on the right-side of the button.</li>
+</ul>
+<p>The fifth block in this section covers <strong>Options for Developers</strong>, with tools that may be useful for developers creating their own themes or branches of Publii. The available options in this section are:</p>
+<figure class="post__image"><figure class="is-loaded"><img loading="lazy"  src="https://getpublii.com/docs/media/posts/19/options-for-developers.svg" alt="Options for developers" width="748" height="247" loading="lazy" data-is-external-image="true"></figure></figure>
+<ul>
+<li><strong>Open DevTools Automatically in the Main Window</strong> - When enabled, this option will automatically load DevTools for troubleshooting as soon as Publii is loaded. Requires a restart of the app before changes will take effect.</li>
+<li><strong>Enable Advanced Preview </strong>- When enabled, clicking the <strong>Preview Your Changes </strong>button will generate the site preview files, but will not render them for display.</li>
+</ul>
+<p>The final section of the <strong>App Settings </strong>is for <strong>Experimental Features</strong>; features that are still being tested, or have not been fully-implemented. The currently available options in this section are:</p>
+<ul>
+<li><strong>Publii UI Translations </strong>- When enabled, a <strong>Languages </strong>section will be added to the <strong>Three-Dot Menu</strong>, in which you will be able to select which UI language you wish to use, and link to the <strong>Publii GitHub </strong>page where user translations into other languages may be downloaded for installation.</li>
+<li><strong>Auto-Beautify Source Code in WYSIWYG Editor </strong>- If enabled, when viewing a post's content in the editor as the source HTML code, it will be automatically laid out in order to be more readable, rather than minified.</li>
+</ul>
+</div>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>Test 2 (copy)</title>
+        <author>
+            <name>Raj</name>
+        </author>
+        <link href="https://hihello0.github.io/React/test-6/"/>
+        <id>https://hihello0.github.io/React/test-6/</id>
+
+        <updated>2022-11-12T07:46:52+05:30</updated>
+            <summary>
+                <![CDATA[
+                    App Settings The general settings customize your experience when using Publii, rather than changing individual websites that the app has&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <header>
+<h1 id="publii-global-settings" class="post__title Lvl1">App Settings</h1>
+</header>
+<div class="post__entry">
+<p>The general settings customize your experience when using Publii, rather than changing individual websites that the app has created. There are five areas in this section, starting with a <strong>Basic Settings</strong> block that contains the following options:</p>
+<figure class="post__image"><figure class="is-loaded"><img loading="lazy"  src="https://getpublii.com/docs/media/posts/19/global-basic-settings-2.svg" alt="Publii General Settings" width="748" height="768" loading="lazy" data-is-external-image="true"></figure></figure>
+<ul>
+<li><strong>Color Theme </strong>- Sets the color theme for Publii; choose between light or dark mode, or automatically use the same setting as your desktop.</li>
+<li><strong>Load At Start</strong> - This option sets which of your websites will be opened when you start Publii, or to default to the last-used website.</li>
+<li><strong>Time Format</strong> - Set your timestamps to be in 12 or 24-hour format.</li>
+<li><strong>Image Resize Engine</strong> - Set which engine should handle image manipulation; <strong>Sharp</strong> is faster, but some users encounter issues with their images when this is enabled. In such cases, use <strong>Jimp</strong>, which is more stable.</li>
+<li><strong>Always save search state </strong>- When<span class="note" data-v-23b47097="" data-v-b539cd42=""> enabled, Publii will save the current search results even when creating a new post, allowing you to return to the listing. By default, Publii only saves search results when opening a post to edit.</span></li>
+<li><strong>Show modification date</strong> - When enabled, the modification date will be displayed under the publication date.</li>
+<li><strong>Show modification date as column</strong> - When enabled, an additional column with the modification date will be displayed in the post list.</li>
+<li><strong>Show post slugs on the listing</strong> - When enabled, the post slug will be displayed under the post title in the post list.</li>
+<li><strong>Show post tags on the listing</strong> - When enabled, the tags will be displayed under the post title in the post list.</li>
+<li><strong>Use wider scrollbars</strong> - Enables wider scrollbars in the Publii app; useful if you're using a high resolution and want the scrollbars to be more visible.</li>
+</ul>
+<p>The second block in this section is the <strong>Files Location</strong> block; there are three options available:</p>
+<figure class="is-loaded"><img loading="lazy"  src="https://getpublii.com/docs/media/posts/19/files-location.svg" alt="Publii Files Location" width="748" height="210" loading="lazy" data-is-external-image="true"></figure>
+<ul>
+<li><strong>Sites Location</strong> - Define where the files for the websites you create with Publii, including themes, are stored. This can be set to, for example, your Dropbox folder to backup your site in the cloud, or any local directory.</li>
+<li><strong>Backup Location</strong> - Defines where backups created in the <strong>Backups</strong> section of the app are stored; again, this can be set your local cloud folder to allow for your backups to be stored online, or stored locally.</li>
+<li><strong>Preview Location</strong> - Define where the files of the website preview are stored. Leave blank to use default preview directory.</li>
+</ul>
+<p>The third block covers <strong>Default lists ordering</strong>; this tells Publii how you want your content such as posts, tags, authors etc...to be displayed in their respective listings. By default, all lists are sorted descending by ID i.e. newest item first, oldest item last. The available options here are:</p>
+<figure class="post__image"><figure class="is-loaded"><img loading="lazy"  src="https://getpublii.com/docs/media/posts/19/default-ordering-on-lists-2.svg" alt="Default posts ordering on the lists" width="748" height="263" loading="lazy" data-is-external-image="true"></figure></figure>
+<ul>
+<li><strong>Default posts ordering </strong>- Sets the ordering for the <strong>Posts</strong> listing. </li>
+<li><strong>Default tags ordering</strong> - Defines the ordering for <strong>Tag</strong> listings.</li>
+<li><strong>Default authors ordering</strong> - Sets the ordering of the <strong>Authors </strong>listing.</li>
+</ul>
+<p>Each listing can be set to order by <strong>ID</strong>, <strong>Creation Date</strong>, <strong>Date last modified</strong>, or alphabetically by <strong>Title</strong> or <strong>Author</strong>; each of these can also be set to ascending or descending.</p>
+<p>The fourth block in this section contains <strong>Options for Editors</strong>; that is, the people that write and edit posts. These options set the default behaviour when writing posts. The available options are:</p>
+<figure class="post__image"><figure class="is-loaded"><img loading="lazy"  src="https://getpublii.com/docs/media/posts/19/options-for-editors-2.svg" alt="Options for post editors" width="748" height="263" loading="lazy" data-is-external-image="true"></figure></figure>
+<ul>
+<li><strong>Font Size (px)</strong> - Sets the standard font size in pixels that the post editor should use.</li>
+<li><strong>Font Family </strong>- Defines the basic font that the post editor should use.</li>
+<li><strong>Close Post Editor on Save </strong>- If enabled, the post editor will default to using the <strong>Save &amp; Close </strong>option for the save button; this can still be changed manually when editing a document by clicking on the down-arrow on the right-side of the button.</li>
+</ul>
+<p>The fifth block in this section covers <strong>Options for Developers</strong>, with tools that may be useful for developers creating their own themes or branches of Publii. The available options in this section are:</p>
+<figure class="post__image"><figure class="is-loaded"><img loading="lazy"  src="https://getpublii.com/docs/media/posts/19/options-for-developers.svg" alt="Options for developers" width="748" height="247" loading="lazy" data-is-external-image="true"></figure></figure>
+<ul>
+<li><strong>Open DevTools Automatically in the Main Window</strong> - When enabled, this option will automatically load DevTools for troubleshooting as soon as Publii is loaded. Requires a restart of the app before changes will take effect.</li>
+<li><strong>Enable Advanced Preview </strong>- When enabled, clicking the <strong>Preview Your Changes </strong>button will generate the site preview files, but will not render them for display.</li>
+</ul>
+<p>The final section of the <strong>App Settings </strong>is for <strong>Experimental Features</strong>; features that are still being tested, or have not been fully-implemented. The currently available options in this section are:</p>
+<ul>
+<li><strong>Publii UI Translations </strong>- When enabled, a <strong>Languages </strong>section will be added to the <strong>Three-Dot Menu</strong>, in which you will be able to select which UI language you wish to use, and link to the <strong>Publii GitHub </strong>page where user translations into other languages may be downloaded for installation.</li>
+<li><strong>Auto-Beautify Source Code in WYSIWYG Editor </strong>- If enabled, when viewing a post's content in the editor as the source HTML code, it will be automatically laid out in order to be more readable, rather than minified.</li>
+</ul>
+</div>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>Hello Testing (copy)</title>
+        <author>
+            <name>Raj</name>
+        </author>
+        <link href="https://hihello0.github.io/React/hello-testing-3/"/>
+        <id>https://hihello0.github.io/React/hello-testing-3/</id>
+
+        <updated>2022-11-12T07:46:52+05:30</updated>
+            <summary>
+                <![CDATA[
+                    App Settings The general settings customize your experience when using Publii, rather than changing individual websites that the app has&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <header>
+<h1 id="publii-global-settings" class="post__title Lvl1">App Settings</h1>
+</header>
+<div class="post__entry">
+<p>The general settings customize your experience when using Publii, rather than changing individual websites that the app has created. There are five areas in this section, starting with a <strong>Basic Settings</strong> block that contains the following options:</p>
+<figure class="post__image"><figure class="is-loaded"><img loading="lazy"  src="https://getpublii.com/docs/media/posts/19/global-basic-settings-2.svg" alt="Publii General Settings" width="748" height="768" loading="lazy" data-is-external-image="true"></figure></figure>
+<ul>
+<li><strong>Color Theme </strong>- Sets the color theme for Publii; choose between light or dark mode, or automatically use the same setting as your desktop.</li>
+<li><strong>Load At Start</strong> - This option sets which of your websites will be opened when you start Publii, or to default to the last-used website.</li>
+<li><strong>Time Format</strong> - Set your timestamps to be in 12 or 24-hour format.</li>
+<li><strong>Image Resize Engine</strong> - Set which engine should handle image manipulation; <strong>Sharp</strong> is faster, but some users encounter issues with their images when this is enabled. In such cases, use <strong>Jimp</strong>, which is more stable.</li>
+<li><strong>Always save search state </strong>- When<span class="note" data-v-23b47097="" data-v-b539cd42=""> enabled, Publii will save the current search results even when creating a new post, allowing you to return to the listing. By default, Publii only saves search results when opening a post to edit.</span></li>
+<li><strong>Show modification date</strong> - When enabled, the modification date will be displayed under the publication date.</li>
+<li><strong>Show modification date as column</strong> - When enabled, an additional column with the modification date will be displayed in the post list.</li>
+<li><strong>Show post slugs on the listing</strong> - When enabled, the post slug will be displayed under the post title in the post list.</li>
+<li><strong>Show post tags on the listing</strong> - When enabled, the tags will be displayed under the post title in the post list.</li>
+<li><strong>Use wider scrollbars</strong> - Enables wider scrollbars in the Publii app; useful if you're using a high resolution and want the scrollbars to be more visible.</li>
+</ul>
+<p>The second block in this section is the <strong>Files Location</strong> block; there are three options available:</p>
+<figure class="is-loaded"><img loading="lazy"  src="https://getpublii.com/docs/media/posts/19/files-location.svg" alt="Publii Files Location" width="748" height="210" loading="lazy" data-is-external-image="true"></figure>
+<ul>
+<li><strong>Sites Location</strong> - Define where the files for the websites you create with Publii, including themes, are stored. This can be set to, for example, your Dropbox folder to backup your site in the cloud, or any local directory.</li>
+<li><strong>Backup Location</strong> - Defines where backups created in the <strong>Backups</strong> section of the app are stored; again, this can be set your local cloud folder to allow for your backups to be stored online, or stored locally.</li>
+<li><strong>Preview Location</strong> - Define where the files of the website preview are stored. Leave blank to use default preview directory.</li>
+</ul>
+<p>The third block covers <strong>Default lists ordering</strong>; this tells Publii how you want your content such as posts, tags, authors etc...to be displayed in their respective listings. By default, all lists are sorted descending by ID i.e. newest item first, oldest item last. The available options here are:</p>
+<figure class="post__image"><figure class="is-loaded"><img loading="lazy"  src="https://getpublii.com/docs/media/posts/19/default-ordering-on-lists-2.svg" alt="Default posts ordering on the lists" width="748" height="263" loading="lazy" data-is-external-image="true"></figure></figure>
+<ul>
+<li><strong>Default posts ordering </strong>- Sets the ordering for the <strong>Posts</strong> listing. </li>
+<li><strong>Default tags ordering</strong> - Defines the ordering for <strong>Tag</strong> listings.</li>
+<li><strong>Default authors ordering</strong> - Sets the ordering of the <strong>Authors </strong>listing.</li>
+</ul>
+<p>Each listing can be set to order by <strong>ID</strong>, <strong>Creation Date</strong>, <strong>Date last modified</strong>, or alphabetically by <strong>Title</strong> or <strong>Author</strong>; each of these can also be set to ascending or descending.</p>
+<p>The fourth block in this section contains <strong>Options for Editors</strong>; that is, the people that write and edit posts. These options set the default behaviour when writing posts. The available options are:</p>
+<figure class="post__image"><figure class="is-loaded"><img loading="lazy"  src="https://getpublii.com/docs/media/posts/19/options-for-editors-2.svg" alt="Options for post editors" width="748" height="263" loading="lazy" data-is-external-image="true"></figure></figure>
+<ul>
+<li><strong>Font Size (px)</strong> - Sets the standard font size in pixels that the post editor should use.</li>
+<li><strong>Font Family </strong>- Defines the basic font that the post editor should use.</li>
+<li><strong>Close Post Editor on Save </strong>- If enabled, the post editor will default to using the <strong>Save &amp; Close </strong>option for the save button; this can still be changed manually when editing a document by clicking on the down-arrow on the right-side of the button.</li>
+</ul>
+<p>The fifth block in this section covers <strong>Options for Developers</strong>, with tools that may be useful for developers creating their own themes or branches of Publii. The available options in this section are:</p>
+<figure class="post__image"><figure class="is-loaded"><img loading="lazy"  src="https://getpublii.com/docs/media/posts/19/options-for-developers.svg" alt="Options for developers" width="748" height="247" loading="lazy" data-is-external-image="true"></figure></figure>
+<ul>
+<li><strong>Open DevTools Automatically in the Main Window</strong> - When enabled, this option will automatically load DevTools for troubleshooting as soon as Publii is loaded. Requires a restart of the app before changes will take effect.</li>
+<li><strong>Enable Advanced Preview </strong>- When enabled, clicking the <strong>Preview Your Changes </strong>button will generate the site preview files, but will not render them for display.</li>
+</ul>
+<p>The final section of the <strong>App Settings </strong>is for <strong>Experimental Features</strong>; features that are still being tested, or have not been fully-implemented. The currently available options in this section are:</p>
+<ul>
+<li><strong>Publii UI Translations </strong>- When enabled, a <strong>Languages </strong>section will be added to the <strong>Three-Dot Menu</strong>, in which you will be able to select which UI language you wish to use, and link to the <strong>Publii GitHub </strong>page where user translations into other languages may be downloaded for installation.</li>
+<li><strong>Auto-Beautify Source Code in WYSIWYG Editor </strong>- If enabled, when viewing a post's content in the editor as the source HTML code, it will be automatically laid out in order to be more readable, rather than minified.</li>
+</ul>
+</div>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>Hello Testing (copy)</title>
+        <author>
+            <name>Raj</name>
+        </author>
+        <link href="https://hihello0.github.io/React/hello-testing-2/"/>
+        <id>https://hihello0.github.io/React/hello-testing-2/</id>
+
+        <updated>2022-11-12T07:46:49+05:30</updated>
+            <summary>
+                <![CDATA[
+                    App Settings The general settings customize your experience when using Publii, rather than changing individual websites that the app has&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <header>
+<h1 id="publii-global-settings" class="post__title Lvl1">App Settings</h1>
+</header>
+<div class="post__entry">
+<p>The general settings customize your experience when using Publii, rather than changing individual websites that the app has created. There are five areas in this section, starting with a <strong>Basic Settings</strong> block that contains the following options:</p>
+<figure class="post__image"><figure class="is-loaded"><img loading="lazy"  src="https://getpublii.com/docs/media/posts/19/global-basic-settings-2.svg" alt="Publii General Settings" width="748" height="768" loading="lazy" data-is-external-image="true"></figure></figure>
+<ul>
+<li><strong>Color Theme </strong>- Sets the color theme for Publii; choose between light or dark mode, or automatically use the same setting as your desktop.</li>
+<li><strong>Load At Start</strong> - This option sets which of your websites will be opened when you start Publii, or to default to the last-used website.</li>
+<li><strong>Time Format</strong> - Set your timestamps to be in 12 or 24-hour format.</li>
+<li><strong>Image Resize Engine</strong> - Set which engine should handle image manipulation; <strong>Sharp</strong> is faster, but some users encounter issues with their images when this is enabled. In such cases, use <strong>Jimp</strong>, which is more stable.</li>
+<li><strong>Always save search state </strong>- When<span class="note" data-v-23b47097="" data-v-b539cd42=""> enabled, Publii will save the current search results even when creating a new post, allowing you to return to the listing. By default, Publii only saves search results when opening a post to edit.</span></li>
+<li><strong>Show modification date</strong> - When enabled, the modification date will be displayed under the publication date.</li>
+<li><strong>Show modification date as column</strong> - When enabled, an additional column with the modification date will be displayed in the post list.</li>
+<li><strong>Show post slugs on the listing</strong> - When enabled, the post slug will be displayed under the post title in the post list.</li>
+<li><strong>Show post tags on the listing</strong> - When enabled, the tags will be displayed under the post title in the post list.</li>
+<li><strong>Use wider scrollbars</strong> - Enables wider scrollbars in the Publii app; useful if you're using a high resolution and want the scrollbars to be more visible.</li>
+</ul>
+<p>The second block in this section is the <strong>Files Location</strong> block; there are three options available:</p>
+<figure class="is-loaded"><img loading="lazy"  src="https://getpublii.com/docs/media/posts/19/files-location.svg" alt="Publii Files Location" width="748" height="210" loading="lazy" data-is-external-image="true"></figure>
+<ul>
+<li><strong>Sites Location</strong> - Define where the files for the websites you create with Publii, including themes, are stored. This can be set to, for example, your Dropbox folder to backup your site in the cloud, or any local directory.</li>
+<li><strong>Backup Location</strong> - Defines where backups created in the <strong>Backups</strong> section of the app are stored; again, this can be set your local cloud folder to allow for your backups to be stored online, or stored locally.</li>
+<li><strong>Preview Location</strong> - Define where the files of the website preview are stored. Leave blank to use default preview directory.</li>
+</ul>
+<p>The third block covers <strong>Default lists ordering</strong>; this tells Publii how you want your content such as posts, tags, authors etc...to be displayed in their respective listings. By default, all lists are sorted descending by ID i.e. newest item first, oldest item last. The available options here are:</p>
+<figure class="post__image"><figure class="is-loaded"><img loading="lazy"  src="https://getpublii.com/docs/media/posts/19/default-ordering-on-lists-2.svg" alt="Default posts ordering on the lists" width="748" height="263" loading="lazy" data-is-external-image="true"></figure></figure>
+<ul>
+<li><strong>Default posts ordering </strong>- Sets the ordering for the <strong>Posts</strong> listing. </li>
+<li><strong>Default tags ordering</strong> - Defines the ordering for <strong>Tag</strong> listings.</li>
+<li><strong>Default authors ordering</strong> - Sets the ordering of the <strong>Authors </strong>listing.</li>
+</ul>
+<p>Each listing can be set to order by <strong>ID</strong>, <strong>Creation Date</strong>, <strong>Date last modified</strong>, or alphabetically by <strong>Title</strong> or <strong>Author</strong>; each of these can also be set to ascending or descending.</p>
+<p>The fourth block in this section contains <strong>Options for Editors</strong>; that is, the people that write and edit posts. These options set the default behaviour when writing posts. The available options are:</p>
+<figure class="post__image"><figure class="is-loaded"><img loading="lazy"  src="https://getpublii.com/docs/media/posts/19/options-for-editors-2.svg" alt="Options for post editors" width="748" height="263" loading="lazy" data-is-external-image="true"></figure></figure>
+<ul>
+<li><strong>Font Size (px)</strong> - Sets the standard font size in pixels that the post editor should use.</li>
+<li><strong>Font Family </strong>- Defines the basic font that the post editor should use.</li>
+<li><strong>Close Post Editor on Save </strong>- If enabled, the post editor will default to using the <strong>Save &amp; Close </strong>option for the save button; this can still be changed manually when editing a document by clicking on the down-arrow on the right-side of the button.</li>
+</ul>
+<p>The fifth block in this section covers <strong>Options for Developers</strong>, with tools that may be useful for developers creating their own themes or branches of Publii. The available options in this section are:</p>
+<figure class="post__image"><figure class="is-loaded"><img loading="lazy"  src="https://getpublii.com/docs/media/posts/19/options-for-developers.svg" alt="Options for developers" width="748" height="247" loading="lazy" data-is-external-image="true"></figure></figure>
+<ul>
+<li><strong>Open DevTools Automatically in the Main Window</strong> - When enabled, this option will automatically load DevTools for troubleshooting as soon as Publii is loaded. Requires a restart of the app before changes will take effect.</li>
+<li><strong>Enable Advanced Preview </strong>- When enabled, clicking the <strong>Preview Your Changes </strong>button will generate the site preview files, but will not render them for display.</li>
+</ul>
+<p>The final section of the <strong>App Settings </strong>is for <strong>Experimental Features</strong>; features that are still being tested, or have not been fully-implemented. The currently available options in this section are:</p>
+<ul>
+<li><strong>Publii UI Translations </strong>- When enabled, a <strong>Languages </strong>section will be added to the <strong>Three-Dot Menu</strong>, in which you will be able to select which UI language you wish to use, and link to the <strong>Publii GitHub </strong>page where user translations into other languages may be downloaded for installation.</li>
+<li><strong>Auto-Beautify Source Code in WYSIWYG Editor </strong>- If enabled, when viewing a post's content in the editor as the source HTML code, it will be automatically laid out in order to be more readable, rather than minified.</li>
+</ul>
+</div>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>Test 2 (copy)</title>
+        <author>
+            <name>Raj</name>
+        </author>
+        <link href="https://hihello0.github.io/React/test-5/"/>
+        <id>https://hihello0.github.io/React/test-5/</id>
+
+        <updated>2022-11-12T07:46:48+05:30</updated>
+            <summary>
+                <![CDATA[
+                    App Settings The general settings customize your experience when using Publii, rather than changing individual websites that the app has&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <header>
+<h1 id="publii-global-settings" class="post__title Lvl1">App Settings</h1>
+</header>
+<div class="post__entry">
+<p>The general settings customize your experience when using Publii, rather than changing individual websites that the app has created. There are five areas in this section, starting with a <strong>Basic Settings</strong> block that contains the following options:</p>
+<figure class="post__image"><figure class="is-loaded"><img loading="lazy"  src="https://getpublii.com/docs/media/posts/19/global-basic-settings-2.svg" alt="Publii General Settings" width="748" height="768" loading="lazy" data-is-external-image="true"></figure></figure>
+<ul>
+<li><strong>Color Theme </strong>- Sets the color theme for Publii; choose between light or dark mode, or automatically use the same setting as your desktop.</li>
+<li><strong>Load At Start</strong> - This option sets which of your websites will be opened when you start Publii, or to default to the last-used website.</li>
+<li><strong>Time Format</strong> - Set your timestamps to be in 12 or 24-hour format.</li>
+<li><strong>Image Resize Engine</strong> - Set which engine should handle image manipulation; <strong>Sharp</strong> is faster, but some users encounter issues with their images when this is enabled. In such cases, use <strong>Jimp</strong>, which is more stable.</li>
+<li><strong>Always save search state </strong>- When<span class="note" data-v-23b47097="" data-v-b539cd42=""> enabled, Publii will save the current search results even when creating a new post, allowing you to return to the listing. By default, Publii only saves search results when opening a post to edit.</span></li>
+<li><strong>Show modification date</strong> - When enabled, the modification date will be displayed under the publication date.</li>
+<li><strong>Show modification date as column</strong> - When enabled, an additional column with the modification date will be displayed in the post list.</li>
+<li><strong>Show post slugs on the listing</strong> - When enabled, the post slug will be displayed under the post title in the post list.</li>
+<li><strong>Show post tags on the listing</strong> - When enabled, the tags will be displayed under the post title in the post list.</li>
+<li><strong>Use wider scrollbars</strong> - Enables wider scrollbars in the Publii app; useful if you're using a high resolution and want the scrollbars to be more visible.</li>
+</ul>
+<p>The second block in this section is the <strong>Files Location</strong> block; there are three options available:</p>
+<figure class="is-loaded"><img loading="lazy"  src="https://getpublii.com/docs/media/posts/19/files-location.svg" alt="Publii Files Location" width="748" height="210" loading="lazy" data-is-external-image="true"></figure>
+<ul>
+<li><strong>Sites Location</strong> - Define where the files for the websites you create with Publii, including themes, are stored. This can be set to, for example, your Dropbox folder to backup your site in the cloud, or any local directory.</li>
+<li><strong>Backup Location</strong> - Defines where backups created in the <strong>Backups</strong> section of the app are stored; again, this can be set your local cloud folder to allow for your backups to be stored online, or stored locally.</li>
+<li><strong>Preview Location</strong> - Define where the files of the website preview are stored. Leave blank to use default preview directory.</li>
+</ul>
+<p>The third block covers <strong>Default lists ordering</strong>; this tells Publii how you want your content such as posts, tags, authors etc...to be displayed in their respective listings. By default, all lists are sorted descending by ID i.e. newest item first, oldest item last. The available options here are:</p>
+<figure class="post__image"><figure class="is-loaded"><img loading="lazy"  src="https://getpublii.com/docs/media/posts/19/default-ordering-on-lists-2.svg" alt="Default posts ordering on the lists" width="748" height="263" loading="lazy" data-is-external-image="true"></figure></figure>
+<ul>
+<li><strong>Default posts ordering </strong>- Sets the ordering for the <strong>Posts</strong> listing. </li>
+<li><strong>Default tags ordering</strong> - Defines the ordering for <strong>Tag</strong> listings.</li>
+<li><strong>Default authors ordering</strong> - Sets the ordering of the <strong>Authors </strong>listing.</li>
+</ul>
+<p>Each listing can be set to order by <strong>ID</strong>, <strong>Creation Date</strong>, <strong>Date last modified</strong>, or alphabetically by <strong>Title</strong> or <strong>Author</strong>; each of these can also be set to ascending or descending.</p>
+<p>The fourth block in this section contains <strong>Options for Editors</strong>; that is, the people that write and edit posts. These options set the default behaviour when writing posts. The available options are:</p>
+<figure class="post__image"><figure class="is-loaded"><img loading="lazy"  src="https://getpublii.com/docs/media/posts/19/options-for-editors-2.svg" alt="Options for post editors" width="748" height="263" loading="lazy" data-is-external-image="true"></figure></figure>
+<ul>
+<li><strong>Font Size (px)</strong> - Sets the standard font size in pixels that the post editor should use.</li>
+<li><strong>Font Family </strong>- Defines the basic font that the post editor should use.</li>
+<li><strong>Close Post Editor on Save </strong>- If enabled, the post editor will default to using the <strong>Save &amp; Close </strong>option for the save button; this can still be changed manually when editing a document by clicking on the down-arrow on the right-side of the button.</li>
+</ul>
+<p>The fifth block in this section covers <strong>Options for Developers</strong>, with tools that may be useful for developers creating their own themes or branches of Publii. The available options in this section are:</p>
+<figure class="post__image"><figure class="is-loaded"><img loading="lazy"  src="https://getpublii.com/docs/media/posts/19/options-for-developers.svg" alt="Options for developers" width="748" height="247" loading="lazy" data-is-external-image="true"></figure></figure>
+<ul>
+<li><strong>Open DevTools Automatically in the Main Window</strong> - When enabled, this option will automatically load DevTools for troubleshooting as soon as Publii is loaded. Requires a restart of the app before changes will take effect.</li>
+<li><strong>Enable Advanced Preview </strong>- When enabled, clicking the <strong>Preview Your Changes </strong>button will generate the site preview files, but will not render them for display.</li>
+</ul>
+<p>The final section of the <strong>App Settings </strong>is for <strong>Experimental Features</strong>; features that are still being tested, or have not been fully-implemented. The currently available options in this section are:</p>
+<ul>
+<li><strong>Publii UI Translations </strong>- When enabled, a <strong>Languages </strong>section will be added to the <strong>Three-Dot Menu</strong>, in which you will be able to select which UI language you wish to use, and link to the <strong>Publii GitHub </strong>page where user translations into other languages may be downloaded for installation.</li>
+<li><strong>Auto-Beautify Source Code in WYSIWYG Editor </strong>- If enabled, when viewing a post's content in the editor as the source HTML code, it will be automatically laid out in order to be more readable, rather than minified.</li>
+</ul>
+</div>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>Test 3 (copy)</title>
+        <author>
+            <name>Raj</name>
+        </author>
+        <link href="https://hihello0.github.io/React/test-4/"/>
+        <id>https://hihello0.github.io/React/test-4/</id>
+
+        <updated>2022-11-12T07:46:48+05:30</updated>
+            <summary>
+                <![CDATA[
+                    App Settings The general settings customize your experience when using Publii, rather than changing individual websites that the app has&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <header>
+<h1 id="publii-global-settings" class="post__title Lvl1">App Settings</h1>
+</header>
+<div class="post__entry">
+<p>The general settings customize your experience when using Publii, rather than changing individual websites that the app has created. There are five areas in this section, starting with a <strong>Basic Settings</strong> block that contains the following options:</p>
+<figure class="post__image"><figure class="is-loaded"><img loading="lazy"  src="https://getpublii.com/docs/media/posts/19/global-basic-settings-2.svg" alt="Publii General Settings" width="748" height="768" loading="lazy" data-is-external-image="true"></figure></figure>
+<ul>
+<li><strong>Color Theme </strong>- Sets the color theme for Publii; choose between light or dark mode, or automatically use the same setting as your desktop.</li>
+<li><strong>Load At Start</strong> - This option sets which of your websites will be opened when you start Publii, or to default to the last-used website.</li>
+<li><strong>Time Format</strong> - Set your timestamps to be in 12 or 24-hour format.</li>
+<li><strong>Image Resize Engine</strong> - Set which engine should handle image manipulation; <strong>Sharp</strong> is faster, but some users encounter issues with their images when this is enabled. In such cases, use <strong>Jimp</strong>, which is more stable.</li>
+<li><strong>Always save search state </strong>- When<span class="note" data-v-23b47097="" data-v-b539cd42=""> enabled, Publii will save the current search results even when creating a new post, allowing you to return to the listing. By default, Publii only saves search results when opening a post to edit.</span></li>
+<li><strong>Show modification date</strong> - When enabled, the modification date will be displayed under the publication date.</li>
+<li><strong>Show modification date as column</strong> - When enabled, an additional column with the modification date will be displayed in the post list.</li>
+<li><strong>Show post slugs on the listing</strong> - When enabled, the post slug will be displayed under the post title in the post list.</li>
+<li><strong>Show post tags on the listing</strong> - When enabled, the tags will be displayed under the post title in the post list.</li>
+<li><strong>Use wider scrollbars</strong> - Enables wider scrollbars in the Publii app; useful if you're using a high resolution and want the scrollbars to be more visible.</li>
+</ul>
+<p>The second block in this section is the <strong>Files Location</strong> block; there are three options available:</p>
+<figure class="is-loaded"><img loading="lazy"  src="https://getpublii.com/docs/media/posts/19/files-location.svg" alt="Publii Files Location" width="748" height="210" loading="lazy" data-is-external-image="true"></figure>
+<ul>
+<li><strong>Sites Location</strong> - Define where the files for the websites you create with Publii, including themes, are stored. This can be set to, for example, your Dropbox folder to backup your site in the cloud, or any local directory.</li>
+<li><strong>Backup Location</strong> - Defines where backups created in the <strong>Backups</strong> section of the app are stored; again, this can be set your local cloud folder to allow for your backups to be stored online, or stored locally.</li>
+<li><strong>Preview Location</strong> - Define where the files of the website preview are stored. Leave blank to use default preview directory.</li>
+</ul>
+<p>The third block covers <strong>Default lists ordering</strong>; this tells Publii how you want your content such as posts, tags, authors etc...to be displayed in their respective listings. By default, all lists are sorted descending by ID i.e. newest item first, oldest item last. The available options here are:</p>
+<figure class="post__image"><figure class="is-loaded"><img loading="lazy"  src="https://getpublii.com/docs/media/posts/19/default-ordering-on-lists-2.svg" alt="Default posts ordering on the lists" width="748" height="263" loading="lazy" data-is-external-image="true"></figure></figure>
+<ul>
+<li><strong>Default posts ordering </strong>- Sets the ordering for the <strong>Posts</strong> listing. </li>
+<li><strong>Default tags ordering</strong> - Defines the ordering for <strong>Tag</strong> listings.</li>
+<li><strong>Default authors ordering</strong> - Sets the ordering of the <strong>Authors </strong>listing.</li>
+</ul>
+<p>Each listing can be set to order by <strong>ID</strong>, <strong>Creation Date</strong>, <strong>Date last modified</strong>, or alphabetically by <strong>Title</strong> or <strong>Author</strong>; each of these can also be set to ascending or descending.</p>
+<p>The fourth block in this section contains <strong>Options for Editors</strong>; that is, the people that write and edit posts. These options set the default behaviour when writing posts. The available options are:</p>
+<figure class="post__image"><figure class="is-loaded"><img loading="lazy"  src="https://getpublii.com/docs/media/posts/19/options-for-editors-2.svg" alt="Options for post editors" width="748" height="263" loading="lazy" data-is-external-image="true"></figure></figure>
+<ul>
+<li><strong>Font Size (px)</strong> - Sets the standard font size in pixels that the post editor should use.</li>
+<li><strong>Font Family </strong>- Defines the basic font that the post editor should use.</li>
+<li><strong>Close Post Editor on Save </strong>- If enabled, the post editor will default to using the <strong>Save &amp; Close </strong>option for the save button; this can still be changed manually when editing a document by clicking on the down-arrow on the right-side of the button.</li>
+</ul>
+<p>The fifth block in this section covers <strong>Options for Developers</strong>, with tools that may be useful for developers creating their own themes or branches of Publii. The available options in this section are:</p>
+<figure class="post__image"><figure class="is-loaded"><img loading="lazy"  src="https://getpublii.com/docs/media/posts/19/options-for-developers.svg" alt="Options for developers" width="748" height="247" loading="lazy" data-is-external-image="true"></figure></figure>
+<ul>
+<li><strong>Open DevTools Automatically in the Main Window</strong> - When enabled, this option will automatically load DevTools for troubleshooting as soon as Publii is loaded. Requires a restart of the app before changes will take effect.</li>
+<li><strong>Enable Advanced Preview </strong>- When enabled, clicking the <strong>Preview Your Changes </strong>button will generate the site preview files, but will not render them for display.</li>
+</ul>
+<p>The final section of the <strong>App Settings </strong>is for <strong>Experimental Features</strong>; features that are still being tested, or have not been fully-implemented. The currently available options in this section are:</p>
+<ul>
+<li><strong>Publii UI Translations </strong>- When enabled, a <strong>Languages </strong>section will be added to the <strong>Three-Dot Menu</strong>, in which you will be able to select which UI language you wish to use, and link to the <strong>Publii GitHub </strong>page where user translations into other languages may be downloaded for installation.</li>
+<li><strong>Auto-Beautify Source Code in WYSIWYG Editor </strong>- If enabled, when viewing a post's content in the editor as the source HTML code, it will be automatically laid out in order to be more readable, rather than minified.</li>
+</ul>
+</div>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>Test 3</title>
+        <author>
+            <name>Raj</name>
+        </author>
+        <link href="https://hihello0.github.io/React/test-3/"/>
+        <id>https://hihello0.github.io/React/test-3/</id>
+
+        <updated>2022-11-12T07:46:46+05:30</updated>
+            <summary>
+                <![CDATA[
+                    App Settings The general settings customize your experience when using Publii, rather than changing individual websites that the app has&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <header>
+<h1 id="publii-global-settings" class="post__title Lvl1">App Settings</h1>
+</header>
+<div class="post__entry">
+<p>The general settings customize your experience when using Publii, rather than changing individual websites that the app has created. There are five areas in this section, starting with a <strong>Basic Settings</strong> block that contains the following options:</p>
+<figure class="post__image"><figure class="is-loaded"><img loading="lazy"  src="https://getpublii.com/docs/media/posts/19/global-basic-settings-2.svg" alt="Publii General Settings" width="748" height="768" loading="lazy" data-is-external-image="true"></figure></figure>
+<ul>
+<li><strong>Color Theme </strong>- Sets the color theme for Publii; choose between light or dark mode, or automatically use the same setting as your desktop.</li>
+<li><strong>Load At Start</strong> - This option sets which of your websites will be opened when you start Publii, or to default to the last-used website.</li>
+<li><strong>Time Format</strong> - Set your timestamps to be in 12 or 24-hour format.</li>
+<li><strong>Image Resize Engine</strong> - Set which engine should handle image manipulation; <strong>Sharp</strong> is faster, but some users encounter issues with their images when this is enabled. In such cases, use <strong>Jimp</strong>, which is more stable.</li>
+<li><strong>Always save search state </strong>- When<span class="note" data-v-23b47097="" data-v-b539cd42=""> enabled, Publii will save the current search results even when creating a new post, allowing you to return to the listing. By default, Publii only saves search results when opening a post to edit.</span></li>
+<li><strong>Show modification date</strong> - When enabled, the modification date will be displayed under the publication date.</li>
+<li><strong>Show modification date as column</strong> - When enabled, an additional column with the modification date will be displayed in the post list.</li>
+<li><strong>Show post slugs on the listing</strong> - When enabled, the post slug will be displayed under the post title in the post list.</li>
+<li><strong>Show post tags on the listing</strong> - When enabled, the tags will be displayed under the post title in the post list.</li>
+<li><strong>Use wider scrollbars</strong> - Enables wider scrollbars in the Publii app; useful if you're using a high resolution and want the scrollbars to be more visible.</li>
+</ul>
+<p>The second block in this section is the <strong>Files Location</strong> block; there are three options available:</p>
+<figure class="is-loaded"><img loading="lazy"  src="https://getpublii.com/docs/media/posts/19/files-location.svg" alt="Publii Files Location" width="748" height="210" loading="lazy" data-is-external-image="true"></figure>
+<ul>
+<li><strong>Sites Location</strong> - Define where the files for the websites you create with Publii, including themes, are stored. This can be set to, for example, your Dropbox folder to backup your site in the cloud, or any local directory.</li>
+<li><strong>Backup Location</strong> - Defines where backups created in the <strong>Backups</strong> section of the app are stored; again, this can be set your local cloud folder to allow for your backups to be stored online, or stored locally.</li>
+<li><strong>Preview Location</strong> - Define where the files of the website preview are stored. Leave blank to use default preview directory.</li>
+</ul>
+<p>The third block covers <strong>Default lists ordering</strong>; this tells Publii how you want your content such as posts, tags, authors etc...to be displayed in their respective listings. By default, all lists are sorted descending by ID i.e. newest item first, oldest item last. The available options here are:</p>
+<figure class="post__image"><figure class="is-loaded"><img loading="lazy"  src="https://getpublii.com/docs/media/posts/19/default-ordering-on-lists-2.svg" alt="Default posts ordering on the lists" width="748" height="263" loading="lazy" data-is-external-image="true"></figure></figure>
+<ul>
+<li><strong>Default posts ordering </strong>- Sets the ordering for the <strong>Posts</strong> listing. </li>
+<li><strong>Default tags ordering</strong> - Defines the ordering for <strong>Tag</strong> listings.</li>
+<li><strong>Default authors ordering</strong> - Sets the ordering of the <strong>Authors </strong>listing.</li>
+</ul>
+<p>Each listing can be set to order by <strong>ID</strong>, <strong>Creation Date</strong>, <strong>Date last modified</strong>, or alphabetically by <strong>Title</strong> or <strong>Author</strong>; each of these can also be set to ascending or descending.</p>
+<p>The fourth block in this section contains <strong>Options for Editors</strong>; that is, the people that write and edit posts. These options set the default behaviour when writing posts. The available options are:</p>
+<figure class="post__image"><figure class="is-loaded"><img loading="lazy"  src="https://getpublii.com/docs/media/posts/19/options-for-editors-2.svg" alt="Options for post editors" width="748" height="263" loading="lazy" data-is-external-image="true"></figure></figure>
+<ul>
+<li><strong>Font Size (px)</strong> - Sets the standard font size in pixels that the post editor should use.</li>
+<li><strong>Font Family </strong>- Defines the basic font that the post editor should use.</li>
+<li><strong>Close Post Editor on Save </strong>- If enabled, the post editor will default to using the <strong>Save &amp; Close </strong>option for the save button; this can still be changed manually when editing a document by clicking on the down-arrow on the right-side of the button.</li>
+</ul>
+<p>The fifth block in this section covers <strong>Options for Developers</strong>, with tools that may be useful for developers creating their own themes or branches of Publii. The available options in this section are:</p>
+<figure class="post__image"><figure class="is-loaded"><img loading="lazy"  src="https://getpublii.com/docs/media/posts/19/options-for-developers.svg" alt="Options for developers" width="748" height="247" loading="lazy" data-is-external-image="true"></figure></figure>
+<ul>
+<li><strong>Open DevTools Automatically in the Main Window</strong> - When enabled, this option will automatically load DevTools for troubleshooting as soon as Publii is loaded. Requires a restart of the app before changes will take effect.</li>
+<li><strong>Enable Advanced Preview </strong>- When enabled, clicking the <strong>Preview Your Changes </strong>button will generate the site preview files, but will not render them for display.</li>
+</ul>
+<p>The final section of the <strong>App Settings </strong>is for <strong>Experimental Features</strong>; features that are still being tested, or have not been fully-implemented. The currently available options in this section are:</p>
+<ul>
+<li><strong>Publii UI Translations </strong>- When enabled, a <strong>Languages </strong>section will be added to the <strong>Three-Dot Menu</strong>, in which you will be able to select which UI language you wish to use, and link to the <strong>Publii GitHub </strong>page where user translations into other languages may be downloaded for installation.</li>
+<li><strong>Auto-Beautify Source Code in WYSIWYG Editor </strong>- If enabled, when viewing a post's content in the editor as the source HTML code, it will be automatically laid out in order to be more readable, rather than minified.</li>
+</ul>
+</div>
+            ]]>
+        </content>
+    </entry>
+</feed>

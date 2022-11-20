@@ -2,15 +2,15 @@ import React from 'react'
 
 import PropTypes from 'prop-types'
 
-import './you-tube.css'
+import styles from './you-tube.module.css'
 
 const YouTube = (props) => {
   return (
-    <div className="you-tube-you-tube">
+    <div className={styles['you-tube']}>
       <img
         alt={props.pastedImage_alt}
         src={props.pastedImage_src}
-        className="you-tube-pasted-image"
+        className={styles['pasted-image']}
       />
     </div>
   )

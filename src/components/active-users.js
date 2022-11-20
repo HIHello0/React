@@ -2,13 +2,14 @@ import React from 'react'
 
 import PropTypes from 'prop-types'
 
-import './active-users.css'
+import projectStyles from '../style.module.css'
+import styles from './active-users.module.css'
 
 const ActiveUsers = (props) => {
   return (
-    <div className="active-users-active-users metrics">
-      <span className="active-users-text">{props.Statistic}</span>
-      <span className="active-users-text1">{props.Caption}</span>
+    <div className={` ${styles['active-users']} ${projectStyles['metrics']} `}>
+      <span className={styles['text']}>{props.Statistic}</span>
+      <span className={styles['text1']}>{props.Caption}</span>
     </div>
   )
 }

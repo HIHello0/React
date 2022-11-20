@@ -2,49 +2,49 @@ import React from 'react'
 
 import PropTypes from 'prop-types'
 
-import './card.css'
+import styles from './card.module.css'
 
 const Card = (props) => {
   return (
-    <div className={`card-card ${props.rootClassName} `}>
-      <span className="card-text">{props.text}</span>
-      <span className="card-text01">
+    <div className={` ${styles['card']} ${styles[props.rootClassName]} `}>
+      <span className={styles['text']}>{props.text}</span>
+      <span className={styles['text01']}>
         <span>Unlimited sandbox testing and</span>
-        <br className="card-text03"></br>
+        <br className={styles['text03']}></br>
         <br></br>
         <span>production access for up to 25</span>
-        <br className="card-text06"></br>
+        <br className={styles['text06']}></br>
         <br></br>
         <span>connected businesses for life.</span>
       </span>
-      <div className="card-get-started">
-        <span className="card-text09">{props.text2}</span>
+      <div className={styles['get-started']}>
+        <span className={styles['text09']}>{props.text2}</span>
       </div>
-      <span className="card-text10">{props.text1}</span>
-      <div className="card-bullet-points">
-        <div className="card-point">
-          <svg viewBox="0 0 877.7142857142857 1024" className="card-icon">
+      <span className={styles['text10']}>{props.text1}</span>
+      <div className={styles['bullet-points']}>
+        <div className={styles['point']}>
+          <svg viewBox="0 0 877.7142857142857 1024" className={styles['icon']}>
             <path d="M877.714 512c0 242.286-196.571 438.857-438.857 438.857s-438.857-196.571-438.857-438.857 196.571-438.857 438.857-438.857 438.857 196.571 438.857 438.857z"></path>
           </svg>
-          <span className="card-text11">{props.text3}</span>
+          <span className={styles['text11']}>{props.text3}</span>
         </div>
-        <div className="card-point1">
-          <svg viewBox="0 0 877.7142857142857 1024" className="card-icon2">
+        <div className={styles['point1']}>
+          <svg viewBox="0 0 877.7142857142857 1024" className={styles['icon2']}>
             <path d="M877.714 512c0 242.286-196.571 438.857-438.857 438.857s-438.857-196.571-438.857-438.857 196.571-438.857 438.857-438.857 438.857 196.571 438.857 438.857z"></path>
           </svg>
-          <span className="card-text12">{props.text4}</span>
+          <span className={styles['text12']}>{props.text4}</span>
         </div>
-        <div className="card-point2">
-          <svg viewBox="0 0 877.7142857142857 1024" className="card-icon4">
+        <div className={styles['point2']}>
+          <svg viewBox="0 0 877.7142857142857 1024" className={styles['icon4']}>
             <path d="M877.714 512c0 242.286-196.571 438.857-438.857 438.857s-438.857-196.571-438.857-438.857 196.571-438.857 438.857-438.857 438.857 196.571 438.857 438.857z"></path>
           </svg>
-          <span className="card-text13">{props.text5}</span>
+          <span className={styles['text13']}>{props.text5}</span>
         </div>
-        <div className="card-point3">
-          <svg viewBox="0 0 877.7142857142857 1024" className="card-icon6">
+        <div className={styles['point3']}>
+          <svg viewBox="0 0 877.7142857142857 1024" className={styles['icon6']}>
             <path d="M877.714 512c0 242.286-196.571 438.857-438.857 438.857s-438.857-196.571-438.857-438.857 196.571-438.857 438.857-438.857 438.857 196.571 438.857 438.857z"></path>
           </svg>
-          <span className="card-text14">{props.text6}</span>
+          <span className={styles['text14']}>{props.text6}</span>
         </div>
       </div>
     </div>

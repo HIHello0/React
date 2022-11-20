@@ -2,24 +2,25 @@ import React from 'react'
 
 import PropTypes from 'prop-types'
 
-import './testimonal.css'
+import projectStyles from '../style.module.css'
+import styles from './testimonal.module.css'
 
 const Testimonal = (props) => {
   return (
-    <div className="testimonal-testimonal testimonal">
-      <span className="testimonal-text">{props.Quote}</span>
-      <div className="testimonal-author">
-        <div className="testimonal-avatar">
+    <div className={` ${styles['testimonal']} ${projectStyles['testimonal']} `}>
+      <span className={styles['text']}>{props.Quote}</span>
+      <div className={styles['author']}>
+        <div className={styles['avatar']}>
           <img
             alt={props.Avatar_alt}
             src={props.Avatar_src}
-            className="testimonal-image"
+            className={styles['image']}
           />
         </div>
-        <div className="testimonal-user">
-          <span className="testimonal-name">{props.Name}</span>
-          <span className="testimonal-divider">—</span>
-          <span className="testimonal-from">{props.From}</span>
+        <div className={styles['user']}>
+          <span className={styles['name']}>{props.Name}</span>
+          <span className={styles['divider']}>—</span>
+          <span className={styles['from']}>{props.From}</span>
         </div>
       </div>
     </div>
